@@ -1,0 +1,36 @@
+name: Player{number}
+game: Manual_PLA_Miro
+requires:
+    version: 0.4.4
+Manual_PLA_Miro:
+    progression_balancing: 50
+    accessibility: items
+    alpha_locations: #enable locations for each static alpha Pokémon
+      false: 0
+      true: 50
+#Set one of the following four settings to true to choose the goal and/or amount of wisps required for the goal. 108 wisps total, 10 space balm total.
+#wisp goals don't work with reduced locations (disabling not_fish locations)
+    wisps_for_goal_108: #100%
+      false: 50
+      true: 0
+    wisps_for_goal_81: #75%
+      false: 0
+      true: 50
+    wisps_for_goal_54: #50%
+      false: 50
+      true: 0
+    Calm_Palkia_with_10_space_balm:
+      false: 50
+      true: 0
+#Disable not_fish locations for themed fishing multiworlds.
+    enable_fish_locations: #fish_locations alone often has too few early locations to generate solo worlds.
+      false: 0
+      true: 50
+    enable_fish_related_locations: #this alone has too few locations to generate! Use together with fish/not_fish locations.
+      false: 0
+      true: 50
+    enable_not_fish_locations:
+      false: 0 #Remember to choose the Palkia goal when setting this to false!
+      true: 50
+#Some Pokémon have very low spawn rates. I suggest excluding their locations. example: ["Phione", "Cherubi", "Cherrim", "Munchlax"]
+    exclude_locations: ["Phione"]

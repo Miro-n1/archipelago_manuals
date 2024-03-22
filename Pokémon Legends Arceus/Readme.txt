@@ -1,0 +1,44 @@
+Manual for Pokémon Legends Arceus, Version 1.03
+by Miro with help from Hopop and ProfBytes
+
+This is an unstable manual apworld, use the Manual Client in the Archipelago Launcher to play. Use in combination with Universal Tracker is recommended.
+
+Locations: 
+    - Catch each Pokémon
+        - Evolve Pokémon only avaliable in mass outbreaks
+    - Catch each alpha Pokémon
+Items: 
+    - Region unlocks 
+    - Fast travel locations
+    - Space-Time Distortion unlocks
+    - Ride Pokémon
+    - Poké Balls and other items
+        - Poké balls are unlocked progressively by type
+        - Progressive Food unlocks berries, then specialized food (mushrooms, honey etc), then Razz Berries.
+        - Lure cakes are unlocked individually
+        - Progressive Stun first unlocks Ball of Mud/Snow Ball/Spoiled Apricot, then Sticky Glob.
+    - Evolution items
+    - Spiritomb wisps as macguffin hunt goal
+Goal: Collect all 108 Spiritomb Wisps and catch Spiritomb
+
+Notes:
+- This Manual expects a completed save: all Base Camps unlocked, Rank 10, not limited by consumables.
+- You start with one region unlocked, but a fast travel location for each region. The warp alone doesn't unlock the region!
+- Pokémon often can be found in multiple regions, they only have to be caught once.
+    - Each static Alpha has their own location when enabled. These also count for the normal catch location.
+- Climbing cliffs with Wyrdeer is not considered in logic.
+- Using Wyrdeer to jump the river to the south island in Crimson Mirelands is difficult without 
+  accidentally triggering Basculegion, but it is in logic to give Wyrdeer locations to unlock.
+- Swimming Pokémon logically require Basculegion, even if they could be caught from land.
+- Space-Time Distortions are in logic with their items. Check your Pokédex to see what's available without them.
+- Mass outbreaks are not considered in logic. They are a progressive item for each region, unlocking mass outbreaks, then massive mass outbreaks. Don't use them if ignoring logic is discouraged in your game.
+
+This map can help find Pokémon: https://altissimo1.github.io/Pokemon%20Locations/Main.html
+
+Please message me in discord (miro.name) if you find any mistakes or have questions and suggestions.
+
+
+Version History:
+1.03: Unstable manual apworld. Added Yaml options for fishing mode. Fixed logic: Stantler, Wyrdeer, Crobat. Fixed category: Alpha Chansey. Renamed Yaml options.
+1.02: Added Yaml options for 100%/75%/50% of wisps required for goal. Fixed logic: Piplup, Prinplup, Rhydon, Magnezone; Fixed category: Alpha Mothim.
+1.01: Fixed Typo for Phione and Ninetales location requirements.
