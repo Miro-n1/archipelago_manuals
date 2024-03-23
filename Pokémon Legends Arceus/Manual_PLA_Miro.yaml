@@ -10,13 +10,13 @@ Manual_PLA_Miro:
       true: 50
 #Set one of the following four settings to true to choose the goal and/or amount of wisps required for the goal. 108 wisps total, 10 space balm total.
 #wisp goals don't work with reduced locations (disabling not_fish locations)
-    wisps_for_goal_108: #100%
+    required_wisps_for_goal_108_of_108: #100%
       false: 50
       true: 0
-    wisps_for_goal_81: #75%
+    required_wisps_for_goal_81_of_108: #75%
       false: 0
       true: 50
-    wisps_for_goal_54: #50%
+    required_wisps_for_goal_54_of_108: #50%
       false: 50
       true: 0
     Calm_Palkia_with_10_space_balm:
@@ -33,4 +33,4 @@ Manual_PLA_Miro:
       false: 0 #Remember to choose the Palkia goal when setting this to false!
       true: 50
 #Some Pokémon have very low spawn rates. I suggest excluding their locations. example: ["Phione", "Cherubi", "Cherrim", "Munchlax"]
-    exclude_locations: ["Phione"]
+    exclude_locations: ["Phione"] #Having to reload an area for a 2% encounter is not fun. Remove this at your own risk.

@@ -19,7 +19,9 @@ Items:
         - Progressive Stun first unlocks Ball of Mud/Snow Ball/Spoiled Apricot, then Sticky Glob.
     - Evolution items
     - Spiritomb wisps as macguffin hunt goal
-Goal: Collect all 108 Spiritomb Wisps and catch Spiritomb
+Goal options: 
+    - Collect all/75%/50% of 108 Spiritomb Wisps to repair the Odd Keystone and catch Spiritomb (catching optional, it is a 1,3% encounter)
+    - Collect 10 Space Balm and calm Palkia in a fight at Spear Pillar
 
 Notes:
 - This Manual expects a completed save: all Base Camps unlocked, Rank 10, not limited by consumables.
@@ -32,10 +34,11 @@ Notes:
 - Swimming Pokémon logically require Basculegion, even if they could be caught from land.
 - Space-Time Distortions are in logic with their items. Check your Pokédex to see what's available without them.
 - Mass outbreaks are not considered in logic. They are a progressive item for each region, unlocking mass outbreaks, then massive mass outbreaks. Don't use them if ignoring logic is discouraged in your game.
+- You can catch Pokémon in fights, but you shouldn't do this to go out of logic. 
 
 This map can help find Pokémon: https://altissimo1.github.io/Pokemon%20Locations/Main.html
 
-Please message me in discord (miro.name) if you find any mistakes or have questions and suggestions.
+Please message me in discord (@miro.name) if you find any mistakes or have questions and suggestions.
 
 
 Version History:
