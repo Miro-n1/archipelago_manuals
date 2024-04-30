@@ -1,4 +1,4 @@
-Manual for Pokémon Legends Arceus, Version 1.03
+Manual for Pokémon Legends Arceus, Version 1.04
 by Miro with help from Hopop and ProfBytes
 
 This is an unstable manual apworld, use the Manual Client in the Archipelago Launcher to play. Use in combination with Universal Tracker is recommended.
@@ -42,6 +42,7 @@ Please message me in discord (@miro.name) if you find any mistakes or have quest
 
 
 Version History:
+1.04: Added shiny locations. Fixed logic: Croagunk.
 1.03: Unstable manual apworld. Added Yaml options for fishing mode. Fixed logic: Stantler, Wyrdeer, Crobat. Fixed category: Alpha Chansey. Renamed Yaml options.
 1.02: Added Yaml options for 100%/75%/50% of wisps required for goal. Fixed logic: Piplup, Prinplup, Rhydon, Magnezone; Fixed category: Alpha Mothim.
 1.01: Fixed Typo for Phione and Ninetales location requirements.

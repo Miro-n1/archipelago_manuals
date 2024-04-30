@@ -5,9 +5,12 @@ requires:
 Manual_PLA_Miro:
     progression_balancing: 50
     accessibility: items
-    alpha_locations: #enable locations for each static alpha Pokémon
+    alpha_locations: #Enable locations for each static alpha Pokémon
       false: 0
       true: 50
+    shiny_locations: #Enable 5 shiny locations, logically locked by shiny charm fragments. Not recommended with non_fish_locations disabled.
+      false: 50
+      true: 0
 #Set one of the following four settings to true to choose the goal and/or amount of wisps required for the goal. 108 wisps total, 10 space balm total.
 #wisp goals don't work with reduced locations (disabling not_fish locations)
     required_wisps_for_goal_108_of_108: #100%
