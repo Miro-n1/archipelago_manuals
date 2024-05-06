@@ -1,19 +1,55 @@
 {
 	"Assignment 1": 	{
 		"starting": true,
-		"connects_to": ["Assignment 2"],
+		"connects_to": ["Assignment 2", "Diff0"],
 		"requires": "|@Mission:1|"
 	},
 	"Assignment 2": 	{
 		"connects_to": ["Assignment 3"],
-		"requires": "|@Mission:2| AND |@Secondary Weapon:1| AND |Progressive Traversal Tool 1/4:1| AND |@Upgrade: 10|"
+		"requires": "|@Mission:2| AND ((|AP4| AND |@Upgrade: 10| AND |@Secondary Weapon:1| AND |Traversal Tool 1/4:1|) OR (|AP5| AND |@Upgrade: 9| AND |Traversal Tool 1/4:1|) OR (|AP6| AND |@Upgrade: 7| AND |Traversal Tool 1/4:1|) OR (|AP7| AND |@Upgrade: 6|) OR (|AP8| AND |@Upgrade: 5|))"
 	},
 	"Assignment 3": 	{
 		"connects_to": ["Assignment 4"],
-		"requires": "|@Mission:3| AND |Progressive Special Equipment 1/4:1| AND |Progressive Throwable Unlock: 1| AND |Progressive Bosco 1/5:1| AND |@Weapons:3| AND |@Upgrade: 20|"
+		"requires": "|@Mission:3| AND ((|AP4| AND |@Upgrade: 23| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |@Weapons:3|) OR (|AP5| AND |@Upgrade: 18| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|AP6| AND |@Upgrade: 14| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|AP7| AND |@Upgrade: 12| AND |Traversal Tool 1/4:1|) OR (|AP8| AND |@Upgrade: 11| AND |Traversal Tool 1/4:1|))"
 	},
 	"Assignment 4": 	{
+		"connects_to": ["Assignment 5"],
+		"requires": "|@Mission:4| AND ((|AP4| AND |@Upgrade: 34| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP5| AND |@Upgrade: 27| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@Weapons:3|) OR (|AP6| AND |@Upgrade: 22| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@Weapons:3|) OR (|AP7| AND |@Upgrade: 19| AND |@Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)) OR (|AP8| AND |@Upgrade: 16| AND |@Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)))"
+    },
+	"Assignment 5": 	{
+		"connects_to": ["Assignment 6"],
+		"requires": "|@Mission:5| AND ((|AP5| AND |@Upgrade: 36| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP6| AND |@Upgrade: 30| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP7| AND |@Upgrade: 25| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|) OR (|AP8| AND |@Upgrade: 22| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|))"
+	},
+	"Assignment 6": 	{
+		"connects_to": ["Assignment 7"],
+		"requires": "|@Mission:6| AND ((|AP6| AND |@Upgrade: 37|) OR (|AP7| AND |@Upgrade: 31| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|) OR (|AP8| AND |@Upgrade: 27| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|))"
+	},
+	"Assignment 7": 	{
+		"connects_to": ["Assignment 8"],
+		"requires": "|@Mission:7| AND ((|AP7| AND |@Upgrade: 37|) OR (|AP8| AND |@Upgrade: 33| AND |@Weapons:4| AND |Armor Upgrade: 1|))"
+	},
+	"Assignment 8": 	{
 		"connects_to": [],
-		"requires": "|@Mission:4| AND |@Weapons:5| AND |@Upgrade: 30|"
+		"requires": "|@Mission:8| AND (|AP8| AND |@Upgrade: 38|)"
+	},
+	"Diff0": 	{
+		"connects_to": ["Diff1"],
+		"requires": []
+	},
+	"Diff1": 	{
+		"connects_to": ["Diff2"],
+		"requires": "|@Upgrade: 8|"
+	},
+	"Diff2": 	{
+		"connects_to": ["Diff3"],
+		"requires": "|@Upgrade: 16| AND |@Weapons:2| AND |Traversal Tool 1/4:1| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)"
+	},
+	"Diff3": 	{
+		"connects_to": ["Diff4"],
+		"requires": "|@Upgrade: 27| AND |@Weapons:3| AND |@Secondary Weapon:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |Special Equipment 1/4:1|"
+	},
+	"Diff4": 	{
+		"connects_to": [],
+		"requires": "|@Upgrade: 38| AND |@Weapons:4| AND |Armor Upgrade: 1|"
     }
 }

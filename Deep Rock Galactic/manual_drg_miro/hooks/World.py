@@ -41,6 +41,28 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
     # Add your code here to calculate which locations to remove
 
+    #Select which regions aren't needed and remove their locations
+    regions_to_remove = []
+    assignment_count = get_option_value(multiworld, player, "ap_assignments")
+    if assignment_count == 4:
+        regions_to_remove = ["Assignment 5", "Assignment 6", "Assignment 7", "Assignment 8"]
+    if assignment_count == 5:
+        regions_to_remove = ["Assignment 6", "Assignment 7", "Assignment 8"]
+    if assignment_count == 6:
+        regions_to_remove = ["Assignment 7", "Assignment 8"]
+    if assignment_count == 7:
+        regions_to_remove = ["Assignment 8"]
+
+    for region in multiworld.regions:
+        if region.player != player:
+            continue
+        #print(region.name)
+        if region.name in regions_to_remove:
+            #print("region removed")
+            for location in list(region.locations):
+                region.locations.remove(location)
+    
+    
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -51,26 +73,58 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    Missions = ["Mining Expedition", "Egg Hunt", "On-site Refining", "Salvage Operation", "Point Extraction", "Escort Duty", "Elimination", "Industrial Sabotage"]
-    multiworld.random.shuffle(Missions)
-    for delete_item in Missions[4:]: #this excludes the first 4 Items in the list
-        item = next(i for i in item_pool if i.name == delete_item)
-        item_pool.remove(item)
+
+    #Randomly select AP assignments:
+    assignment_count = get_option_value(multiworld, player, "ap_assignments")
+    missions = ["Mining Expedition", "Egg Hunt", "On-site Refining", "Salvage Operation", "Point Extraction", "Escort Duty", "Elimination", "Industrial Sabotage"]
+    multiworld.random.shuffle(missions)
+    for itemName in missions[assignment_count:]: #this excludes the first assignment_count items in the list
+        delete_item = next(i for i in item_pool if i.name == itemName)
+        item_pool.remove(delete_item)
+
+    #Set assignment count item for logic:
+    assignment_counter = next(item for item in item_pool if item.name == f"AP{assignment_count}")
+    multiworld.push_precollected(assignment_counter)
+    items_to_remove = ["AP4","AP5","AP6","AP7","AP8"]
+    for itemName in items_to_remove:
+        delete_item = next(i for i in item_pool if i.name == itemName)
+        item_pool.remove(delete_item)
+
+    #Start inventory for easy start yaml option:
+    if get_option_value(multiworld, player, "easy_start"):
+        start_inventory_items = ["Traversal Tool 1/4", "Special Equipment 1/4"]
+        secondary_weapons = ["Secondary Weapon 1", "Secondary Weapon 2", "Secondary Weapon 3"]
+        multiworld.random.shuffle(secondary_weapons)
+        start_inventory_items += secondary_weapons[2:]
+        for itemName in start_inventory_items:
+            start_inventory = next(item for item in item_pool if item.name == itemName)
+            multiworld.push_precollected(start_inventory)
+            item_pool.remove(start_inventory)
+    
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
-
     # Add your code here to calculate which items to remove.
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
-
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
+
+
+    #Place a victory item on the last ap assignment:
+    assignment_count = get_option_value(multiworld, player, "ap_assignments")
+    last_assignment_location = f"Assignment {assignment_count}-3"
+    #print(last_assignment_location)
+    location = multiworld.get_location(last_assignment_location, player)
+    item_to_place = next(i for i in item_pool if i.name == "Assignments Complete!")
+    location.place_locked_item(item_to_place)
+    item_pool.remove(item_to_place)
 
     return item_pool
 

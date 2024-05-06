@@ -109,7 +109,7 @@
 		"category": ["Missions"],
 		"requires": [],
         "region": "Assignment 4",
-		"place_item": ["Assignments Complete!"]
+		"place_item_category": ["Mission"]
 	},
 	{
 		"name": "Secondary Objective 4-1",
@@ -124,64 +124,367 @@
         "region": "Assignment 4"
 	},
 	{
+		"name": "Assignment 5-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Assignment 5-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Assignment 5-3",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 5",
+		"place_item_category": ["Mission"]
+	},
+	{
+		"name": "Secondary Objective 5-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Secondary Objective 5-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Assignment 6-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Assignment 6-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Assignment 6-3",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 6",
+		"place_item_category": ["Mission"]
+	},
+	{
+		"name": "Secondary Objective 6-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Secondary Objective 6-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Assignment 7-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Assignment 7-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Assignment 7-3",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 7",
+		"place_item_category": ["Mission"]
+	},
+	{
+		"name": "Secondary Objective 7-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Secondary Objective 7-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Assignment 8-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Assignment 8-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Assignment 8-3",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Secondary Objective 8-1",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Secondary Objective 8-2",
+		"category": ["Missions"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
 		"name": "Resupply 1",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 1"
 	},
 	{
 		"name": "Resupply 2",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 1"
 	},
 	{
 		"name": "Resupply 3",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 1"
 	},
 	{
 		"name": "Resupply 4",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 2"
 	},
 	{
 		"name": "Resupply 5",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 2"
 	},
 	{
 		"name": "Resupply 6",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Assignment 3"
 	},
 	{
 		"name": "Resupply 7",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 3"
 	},
 	{
 		"name": "Resupply 8",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
 		"requires": [],
         "region": "Assignment 3"
 	},
 	{
 		"name": "Resupply 9",
-		"category": ["Check Shop"],
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "Resupply 10",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "Resupply 11",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Resupply 12",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Resupply 13",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Resupply 14",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Resupply 15",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Resupply 16",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Resupply 17",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Resupply 18",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Resupply 19",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Resupply 20",
+		"category": ["Check Shop","Resupply"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "50 Nitra 1",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 1"
+	},
+	{
+		"name": "50 Nitra 2",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 1"
+	},
+	{
+		"name": "50 Nitra 3",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 1"
+	},
+	{
+		"name": "50 Nitra 4",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 2"
+	},
+	{
+		"name": "50 Nitra 5",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 2"
+	},
+	{
+		"name": "50 Nitra 6",
+		"category": ["Check Shop","Nitra"],
 		"requires": [],
         "region": "Assignment 3"
 	},
 	{
-		"name": "Resupply 10",
-		"category": ["Check Shop"],
+		"name": "50 Nitra 7",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 3"
+	},
+	{
+		"name": "50 Nitra 8",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 3"
+	},
+	{
+		"name": "50 Nitra 9",
+		"category": ["Check Shop","Nitra"],
 		"requires": [],
         "region": "Assignment 4"
+	},
+	{
+		"name": "50 Nitra 10",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "50 Nitra 11",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Nitra 12",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Nitra 13",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Nitra 14",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "50 Nitra 15",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "50 Nitra 16",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Nitra 17",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Nitra 18",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Nitra 19",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "50 Nitra 20",
+		"category": ["Check Shop","Nitra"],
+		"requires": [],
+        "region": "Assignment 8"
 	},
 	{
 		"name": "50 Gold 1",
@@ -244,6 +547,90 @@
         "region": "Assignment 4"
 	},
 	{
+		"name": "50 Gold 11",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "50 Gold 12",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "50 Gold 13",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Gold 14",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Gold 15",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "50 Gold 16",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "50 Gold 17",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "50 Gold 18",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "50 Gold 19",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Gold 20",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Gold 21",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "50 Gold 22",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "50 Gold 23",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "50 Gold 24",
+		"category": ["Check Shop"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
 		"name": "Crafting Mineral 1",
 		"category": ["Unique Resources"],
 		"requires": [],
@@ -280,6 +667,66 @@
         "region": "Assignment 3"
 	},
 	{
+		"name": "Crafting Mineral 7",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "Crafting Mineral 8",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "Crafting Mineral 9",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Crafting Mineral 10",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Crafting Mineral 11",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Crafting Mineral 12",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Crafting Mineral 13",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Crafting Mineral 14",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Crafting Mineral 15",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Crafting Mineral 16",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
 		"name": "Hops 1",
 		"category": ["Unique Resources"],
 		"requires": [],
@@ -295,109 +742,157 @@
 		"name": "Hops 3",
 		"category": ["Unique Resources"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Assignment 2"
 	},
 	{
 		"name": "Hops 4",
 		"category": ["Unique Resources"],
 		"requires": [],
+        "region": "Assignment 3"
+	},
+	{
+		"name": "Hops 5",
+		"category": ["Unique Resources"],
+		"requires": [],
         "region": "Assignment 4"
+	},
+	{
+		"name": "Hops 6",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 4"
+	},
+	{
+		"name": "Hops 7",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 5"
+	},
+	{
+		"name": "Hops 8",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Hops 9",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 6"
+	},
+	{
+		"name": "Hops 10",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 7"
+	},
+	{
+		"name": "Hops 11",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 8"
+	},
+	{
+		"name": "Hops 12",
+		"category": ["Unique Resources"],
+		"requires": [],
+        "region": "Assignment 8"
 	},
 	{
 		"name": "Loot Bug",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 1"
+        "region": "Diff0"
 	},
 	{
 		"name": "Glyphid Praetorian",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 1"
+        "region": "Diff0"
 	},
 	{
 		"name": "Glyphid Opressor",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff2"
 	},
 	{
 		"name": "Glyphid Septic Spreader",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff1"
 	},
 	{
 		"name": "Glyphid Menace",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff2"
 	},
 	{
 		"name": "Glyphid Warden",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff1"
 	},
 	{
 		"name": "Glyphid Bulk Detonator / Crassus Detonator",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Diff4"
 	},
 	{
 		"name": "Brood Nexus",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff3"
 	},
 	{
 		"name": "Q'ronar Shellback",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff3"
 	},
 	{
 		"name": "Mactera Tri-Jaw",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff2"
 	},
 	{
 		"name": "Mactera Brundle",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Diff2"
 	},
 	{
 		"name": "Mactera Grabber",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Diff2"
 	},
 	{
 		"name": "Mactera Goo Bomber",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Diff3"
 	},
 	{
 		"name": "Cave Leech",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff3"
 	},
 	{
 		"name": "Spitball Infector",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 2"
+        "region": "Diff3"
 	},
 	{
 		"name": "Naedocyte Breeder",
 		"category": ["Extermination Tasks"],
 		"requires": [],
-        "region": "Assignment 3"
+        "region": "Diff4"
 	},
 	{
         "victory": true,

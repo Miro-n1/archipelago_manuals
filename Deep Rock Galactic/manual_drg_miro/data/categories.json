@@ -7,5 +7,13 @@
     },
     "Upgrade": {
         "hidden": true
+    },
+    "Resupply": {
+        "yaml_option": ["!nitra_remaining"],
+        "hidden": true
+    },
+    "Nitra": {
+        "yaml_option": ["nitra_remaining"],
+        "hidden": true
     }
 }

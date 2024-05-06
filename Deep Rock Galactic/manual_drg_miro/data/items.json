@@ -109,7 +109,7 @@
 	},
 	{
 		"count": "5",
-		"name": "Progressive Primary Upgrade",
+		"name": "Primary Upgrade",
 		"category": ["Weapon Upgrades", "Upgrade"],
 		"progression": true
 	},
@@ -121,7 +121,7 @@
 	},
 	{
 		"count": "5",
-		"name": "Progressive Secondary Upgrade",
+		"name": "Secondary Upgrade",
 		"category": ["Weapon Upgrades", "Upgrade"],
 		"progression": true
 	},
@@ -133,37 +133,37 @@
 	},
 	{
 		"count": "2",
-		"name": "Progressive Pickaxe Upgrade",
+		"name": "Pickaxe Upgrade",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
 	{
 		"count": "5",
-		"name": "Progressive Traversal Tool 1/4",
+		"name": "Traversal Tool 1/4",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
 	{
 		"count": "5",
-		"name": "Progressive Special Equipment 1/4",
+		"name": "Special Equipment 1/4",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
 	{
 		"count": "4",
-		"name": "Progressive Throwable Unlock",
+		"name": "Throwable Unlock",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
 	{
 		"count": "4",
-		"name": "Progressive Armor Upgrade",
+		"name": "Armor Upgrade",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
 	{
 		"count": "6",
-		"name": "Progressive Bosco 1/5",
+		"name": "Bosco 1/5",
 		"category": ["Unlocks and Upgrades", "Upgrade"],
 		"progression": true
 	},
@@ -186,9 +186,75 @@
 		"useful": true
 	},
 	{
+		"count": "1",
+		"name": "AP4",
+		"category": [],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "AP5",
+		"category": [],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "AP6",
+		"category": [],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "AP7",
+		"category": [],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "AP8",
+		"category": [],
+		"progression": true
+	},
+	{
+		"count": "0",
+		"name": "Start the next mission drunk",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
+		"count": "0",
+		"name": "Play Jetty Boot",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
+		"count": "0",
+		"name": "Play Barrel Hoop",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
+		"count": "0",
+		"name": "Order a round of Leaf Lover's Special, you buzzkill",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
+		"count": "0",
+		"name": "Tell a friend about Archipelago",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
+		"count": "0",
+		"name": "If possible, play your next mission with a warning mutator",
+		"category": ["Trap"],
+		"trap": true
+	},
+	{
 		"count":1,
 		"name": "Assignments Complete!",
 		"category": ["Victory"],
-		"progression_skip_balancing": true
+		"progression": true
 	}
 ]
