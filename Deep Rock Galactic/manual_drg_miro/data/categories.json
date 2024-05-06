@@ -1,0 +1,11 @@
+{
+    "Primary Weapon": {
+        "hidden": true
+    },
+    "Secondary Weapon": {
+        "hidden": true
+    },
+    "Upgrade": {
+        "hidden": true
+    }
+}

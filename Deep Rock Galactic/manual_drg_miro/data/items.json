@@ -1,0 +1,194 @@
+[
+	{
+		"count":1,
+		"name": "Mining Expedition",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Egg Hunt",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "On-site Refining",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Salvage Operation",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Point Extraction",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Escort Duty",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Elimination",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Industrial Sabotage",
+		"category": ["Mission"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Driller",
+		"category": ["Class"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Engineer",
+		"category": ["Class"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Gunner",
+		"category": ["Class"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Scout",
+		"category": ["Class"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Primary Weapon 1",
+		"category": ["Primary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Primary Weapon 2",
+		"category": ["Primary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Primary Weapon 3",
+		"category": ["Primary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Secondary Weapon 1",
+		"category": ["Secondary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Secondary Weapon 2",
+		"category": ["Secondary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Secondary Weapon 3",
+		"category": ["Secondary Weapon", "Weapons"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Primary Upgrade",
+		"category": ["Weapon Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "Primary Overclock",
+		"category": ["Weapon Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Secondary Upgrade",
+		"category": ["Weapon Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "1",
+		"name": "Secondary Overclock",
+		"category": ["Weapon Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "2",
+		"name": "Progressive Pickaxe Upgrade",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Traversal Tool 1/4",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "5",
+		"name": "Progressive Special Equipment 1/4",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "4",
+		"name": "Progressive Throwable Unlock",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "4",
+		"name": "Progressive Armor Upgrade",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "6",
+		"name": "Progressive Bosco 1/5",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "3",
+		"name": "Passive Perk Slot",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count": "2",
+		"name": "Active Perk Slot",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Buff Beer",
+		"category": ["Unlocks and Upgrades", "Upgrade"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Assignments Complete!",
+		"category": ["Victory"],
+		"progression_skip_balancing": true
+	}
+]

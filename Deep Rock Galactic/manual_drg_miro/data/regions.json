@@ -1,0 +1,19 @@
+{
+	"Assignment 1": 	{
+		"starting": true,
+		"connects_to": ["Assignment 2"],
+		"requires": "|@Mission:1|"
+	},
+	"Assignment 2": 	{
+		"connects_to": ["Assignment 3"],
+		"requires": "|@Mission:2| AND |@Secondary Weapon:1| AND |Progressive Traversal Tool 1/4:1| AND |@Upgrade: 10|"
+	},
+	"Assignment 3": 	{
+		"connects_to": ["Assignment 4"],
+		"requires": "|@Mission:3| AND |Progressive Special Equipment 1/4:1| AND |Progressive Throwable Unlock: 1| AND |Progressive Bosco 1/5:1| AND |@Weapons:3| AND |@Upgrade: 20|"
+	},
+	"Assignment 4": 	{
+		"connects_to": [],
+		"requires": "|@Mission:4| AND |@Weapons:5| AND |@Upgrade: 30|"
+    }
+}

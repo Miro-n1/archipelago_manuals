@@ -1,0 +1,25 @@
+{
+  "game": "DRG",
+  "creator": "Miro",
+  "filler_item_name": "Rock and Stone",
+  "starting_items": [
+    {
+      "item_categories": [
+        "Mission"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "Class"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "Primary Weapon"
+      ],
+      "random": 1
+    }
+  ]
+}
