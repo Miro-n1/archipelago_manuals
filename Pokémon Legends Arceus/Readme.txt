@@ -1,4 +1,4 @@
-Manual for Pokémon Legends Arceus, Version 1.04
+Manual for Pokémon Legends Arceus, Version 1.05
 by Miro with help from Hopop and ProfBytes
 
 This is an unstable manual apworld, use the Manual Client in the Archipelago Launcher to play. Use in combination with Universal Tracker is recommended.
