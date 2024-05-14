@@ -1,0 +1,55 @@
+{
+    "BaseOF": {
+        "hidden": true
+    },
+    "BaseCM": {
+        "hidden": true
+    },
+    "BaseCC": {
+        "hidden": true
+    },
+    "BaseCH": {
+        "hidden": true
+    },
+    "BaseAI": {
+        "hidden": true
+    },
+    "Alpha Locations": {
+        "hidden": true,
+        "yaml_option": ["alpha_locations"]
+    },
+    "Shinies": {
+        "yaml_option": ["shiny_locations"]
+    },
+    "fish": {
+        "yaml_option": ["enable_fish_locations"],
+        "hidden": true
+    },
+    "fishadjacent": {
+        "yaml_option": ["enable_fish_related_locations"],
+        "hidden": true
+    },
+    "notfish": {
+        "yaml_option": ["enable_not_fish_locations"],
+        "hidden": true
+    },
+    "108Wisps": {
+        "hidden": true,
+        "yaml_option": ["required_wisps_for_goal_108_of_108", "!required_wisps_for_goal_81_of_108", "!required_wisps_for_goal_54_of_108"]
+    },
+    "81Wisps": {
+        "yaml_option": ["required_wisps_for_goal_81_of_108", "!required_wisps_for_goal_108_of_108", "!required_wisps_for_goal_54_of_108"],
+        "hidden": true
+    },
+    "54Wisps": {
+        "yaml_option": ["required_wisps_for_goal_54_of_108", "!required_wisps_for_goal_81_of_108", "!required_wisps_for_goal_108_of_108"],
+        "hidden": true
+    },
+    "spacebalmgoal": {
+        "yaml_option": ["Calm_Palkia_with_10_space_balm"],
+        "hidden": true
+    },
+    "Spritomb wisps (108)": {
+        "yaml_option": ["!Calm_Palkia_with_10_space_balm"]
+    }
+}
