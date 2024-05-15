@@ -1,55 +1,55 @@
 {
-	"Assignment 1": 	{
-		"starting": true,
-		"connects_to": ["Assignment 2", "Diff0"],
-		"requires": "|@Mission:1|"
-	},
-	"Assignment 2": 	{
-		"connects_to": ["Assignment 3"],
-		"requires": "|@Mission:2| AND ((|AP4| AND |@Upgrade: 10| AND |@Secondary Weapon:1| AND |Traversal Tool 1/4:1|) OR (|AP5| AND |@Upgrade: 9| AND |Traversal Tool 1/4:1|) OR (|AP6| AND |@Upgrade: 7| AND |Traversal Tool 1/4:1|) OR (|AP7| AND |@Upgrade: 6|) OR (|AP8| AND |@Upgrade: 5|))"
-	},
-	"Assignment 3": 	{
-		"connects_to": ["Assignment 4"],
-		"requires": "|@Mission:3| AND ((|AP4| AND |@Upgrade: 23| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |@Weapons:3|) OR (|AP5| AND |@Upgrade: 18| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|AP6| AND |@Upgrade: 14| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|AP7| AND |@Upgrade: 12| AND |Traversal Tool 1/4:1|) OR (|AP8| AND |@Upgrade: 11| AND |Traversal Tool 1/4:1|))"
-	},
-	"Assignment 4": 	{
-		"connects_to": ["Assignment 5"],
-		"requires": "|@Mission:4| AND ((|AP4| AND |@Upgrade: 34| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP5| AND |@Upgrade: 27| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@Weapons:3|) OR (|AP6| AND |@Upgrade: 22| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@Weapons:3|) OR (|AP7| AND |@Upgrade: 19| AND |@Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)) OR (|AP8| AND |@Upgrade: 16| AND |@Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)))"
-    },
-	"Assignment 5": 	{
-		"connects_to": ["Assignment 6"],
-		"requires": "|@Mission:5| AND ((|AP5| AND |@Upgrade: 36| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP6| AND |@Upgrade: 30| AND |@Weapons:4| AND |Armor Upgrade: 1|) OR (|AP7| AND |@Upgrade: 25| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|) OR (|AP8| AND |@Upgrade: 22| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|))"
-	},
-	"Assignment 6": 	{
-		"connects_to": ["Assignment 7"],
-		"requires": "|@Mission:6| AND ((|AP6| AND |@Upgrade: 37|) OR (|AP7| AND |@Upgrade: 31| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|) OR (|AP8| AND |@Upgrade: 27| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|))"
-	},
-	"Assignment 7": 	{
-		"connects_to": ["Assignment 8"],
-		"requires": "|@Mission:7| AND ((|AP7| AND |@Upgrade: 37|) OR (|AP8| AND |@Upgrade: 33| AND |@Weapons:4| AND |Armor Upgrade: 1|))"
-	},
-	"Assignment 8": 	{
-		"connects_to": [],
-		"requires": "|@Mission:8| AND (|AP8| AND |@Upgrade: 38|)"
-	},
-	"Diff0": 	{
-		"connects_to": ["Diff1"],
-		"requires": []
-	},
-	"Diff1": 	{
-		"connects_to": ["Diff2"],
-		"requires": "|@Upgrade: 8|"
-	},
-	"Diff2": 	{
-		"connects_to": ["Diff3"],
-		"requires": "|@Upgrade: 16| AND |@Weapons:2| AND |Traversal Tool 1/4:1| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)"
-	},
-	"Diff3": 	{
-		"connects_to": ["Diff4"],
-		"requires": "|@Upgrade: 27| AND |@Weapons:3| AND |@Secondary Weapon:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |Special Equipment 1/4:1|"
-	},
-	"Diff4": 	{
-		"connects_to": [],
-		"requires": "|@Upgrade: 38| AND |@Weapons:4| AND |Armor Upgrade: 1|"
-    }
+    "Space Rig": {"starting": true,
+		"connects_to": ["Assignment 1", "Diff0", "Class assignments", "Secondary objectives", "Warning mutators", "Anomaly mutators", "DD1", "EDD1", "WCH1", "WPA1"],
+		"requires": []},
+
+    "Assignment 1": {"connects_to": ["Assignment 2"],
+		"requires": "|@(s) Missions:1|"},
+	"Assignment 2": {"connects_to": ["Assignment 3"],
+		"requires": "|@(s) Missions:2| AND ((|Logic-only item for 4 assignments| AND |@Upgrade: 10| AND |@Secondary Weapon:1| AND |Traversal Tool 1/4:1|) OR (|Logic-only item for 5 assignments| AND |@Upgrade: 9| AND |Traversal Tool 1/4:1|) OR (|Logic-only item for 6 assignments| AND |@Upgrade: 7| AND |Traversal Tool 1/4:1|) OR (|Logic-only item for 7 assignments| AND |@Upgrade: 6|) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 5|))"},
+	"Assignment 3": {"connects_to": ["Assignment 4"],
+		"requires": "|@(s) Missions:3| AND ((|Logic-only item for 4 assignments| AND |@Upgrade: 23| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |@(s) Weapons:3|) OR (|Logic-only item for 5 assignments| AND |@Upgrade: 18| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|Logic-only item for 6 assignments| AND |@Upgrade: 14| AND |@Secondary Weapon:1| AND |Bosco 1/5:1|) OR (|Logic-only item for 7 assignments| AND |@Upgrade: 12| AND |Traversal Tool 1/4:1|) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 11| AND |Traversal Tool 1/4:1|))"},
+	"Assignment 4": {"connects_to": ["Assignment 5"],
+		"requires": "|@(s) Missions:4| AND ((|Logic-only item for 4 assignments| AND |@Upgrade: 34| AND |@(s) Weapons:4| AND |Armor Upgrade: 1|) OR (|Logic-only item for 5 assignments| AND |@Upgrade: 27| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@(s) Weapons:3|) OR (|Logic-only item for 6 assignments| AND |@Upgrade: 22| AND |Special Equipment 1/4:1| AND |Throwable Unlock: 1| AND |@(s) Weapons:3|) OR (|Logic-only item for 7 assignments| AND |@Upgrade: 19| AND |@(s) Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 16| AND |@(s) Weapons:3| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)))"},
+	"Assignment 5": {"connects_to": ["Assignment 6"],
+		"requires": "|@(s) Missions:5| AND ((|Logic-only item for 5 assignments| AND |@Upgrade: 36| AND |@(s) Weapons:4| AND |Armor Upgrade: 1|) OR (|Logic-only item for 6 assignments| AND |@Upgrade: 30| AND |@(s) Weapons:4| AND |Armor Upgrade: 1|) OR (|Logic-only item for 7 assignments| AND |@Upgrade: 25| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 22| AND |Bosco 1/5:1| AND |@Secondary Weapon:1|))"},
+	"Assignment 6": {"connects_to": ["Assignment 7"],
+		"requires": "|@(s) Missions:6| AND ((|Logic-only item for 6 assignments| AND |@Upgrade: 37|) OR (|Logic-only item for 7 assignments| AND |@Upgrade: 31| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 27| AND |Throwable Unlock: 1| AND |Special Equipment 1/4:1|))"},
+	"Assignment 7": {"connects_to": ["Assignment 8"],
+		"requires": "|@(s) Missions:7| AND ((|Logic-only item for 7 assignments| AND |@Upgrade: 37|) OR (|Logic-only item for 8 assignments| AND |@Upgrade: 33| AND |@(s) Weapons:4| AND |Armor Upgrade: 1|))"},
+	"Assignment 8": {"connects_to": [],
+		"requires": "|@(s) Missions:8| AND (|Logic-only item for 8 assignments| AND |@Upgrade: 38|)"},
+	"Diff0": {"connects_to": ["Diff1"],
+		"requires": "|@(s) Missions:1|"},
+	"Diff1": {"connects_to": ["Diff2"],
+		"requires": "|@Upgrade: 8|"},
+	"Diff2": {"connects_to": ["Diff3"],
+		"requires": "|@Upgrade: 16| AND |@(s) Weapons:2| AND |Traversal Tool 1/4:1| AND (|@Secondary Weapon:1| OR |Throwable Unlock: 1|) AND (|Bosco 1/5:1| OR |Special Equipment 1/4:1|)"},
+	"Diff3": {"connects_to": ["Diff4"],
+		"requires": "|@Upgrade: 27| AND |@(s) Weapons:3| AND |@Secondary Weapon:1| AND |Throwable Unlock: 1| AND |Bosco 1/5:1| AND |Special Equipment 1/4:1|"},
+	"Diff4": {"connects_to": [],
+		"requires": "|@Upgrade: 38| AND |@(s) Weapons:4| AND |Armor Upgrade: 1|"},
+
+	
+	"Class assignments": {"connects_to": [],"requires": []},
+	"Secondary objectives": {"connects_to": [],"requires": []},
+	"Warning mutators": {"connects_to": [],"requires": []},
+	"Anomaly mutators": {"connects_to": [],"requires": []},
+	"DD1": {"connects_to": ["DD2"],"requires": "|Deep Dive: 1|"},
+	"DD2": {"connects_to": ["DD3"],"requires": "|Deep Dive: 2|"},
+	"DD3": {"connects_to": ["DD4"],"requires": "|Deep Dive: 3|"},
+	"DD4": {"connects_to": [],"requires": "|Deep Dive: 4|"},
+	"EDD1": {"connects_to": ["EDD2"],"requires": "|Elite Deep Dive: 1|"},
+	"EDD2": {"connects_to": ["EDD3"],"requires": "|Elite Deep Dive: 2|"},
+	"EDD3": {"connects_to": ["EDD4"],"requires": "|Elite Deep Dive: 3|"},
+	"EDD4": {"connects_to": [],"requires": "|Elite Deep Dive: 4|"},
+	"WCH1": {"connects_to": ["WCH2"],"requires": "|Weekly Core Hunt: 1|"},
+	"WCH2": {"connects_to": ["WCH3"],"requires": "|Weekly Core Hunt: 2|"},
+	"WCH3": {"connects_to": ["WCH4"],"requires": "|Weekly Core Hunt: 3|"},
+	"WCH4": {"connects_to": [],"requires": "|Weekly Core Hunt: 4|"},
+	"WPA1": {"connects_to": ["WPA2"],"requires": "|Weekly Priority Assignment: 1|"},
+	"WPA2": {"connects_to": ["WPA3"],"requires": "|Weekly Priority Assignment: 2|"},
+	"WPA3": {"connects_to": ["WPA4"],"requires": "|Weekly Priority Assignment: 3|"},
+	"WPA4": {"connects_to": [],"requires": "|Weekly Priority Assignment: 4|"
+	}
 }

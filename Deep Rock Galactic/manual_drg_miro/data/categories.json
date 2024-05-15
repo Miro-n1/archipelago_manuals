@@ -1,4 +1,12 @@
 {
+    "long": {
+        "yaml_option": ["!game_mode_short"],
+        "hidden": true
+    },
+    "short": {
+        "yaml_option": ["game_mode_short"],
+        "hidden": true
+    },
     "Primary Weapon": {
         "hidden": true
     },
@@ -9,11 +17,23 @@
         "hidden": true
     },
     "Resupply": {
-        "yaml_option": ["!nitra_remaining"],
+        "yaml_option": ["!short_nitra_remaining"],
         "hidden": true
     },
     "Nitra": {
-        "yaml_option": ["nitra_remaining"],
+        "yaml_option": ["short_nitra_remaining"],
+        "hidden": true
+    },
+    "logicItem": {
+        "hidden": true
+    },
+    "ClassAssignments": {
+        "hidden": true
+    },
+    "DeepDive": {
+        "hidden": true
+    },
+    "EliteDeepDive": {
         "hidden": true
     }
 }

@@ -1,903 +1,376 @@
 [
-	{
-		"name": "Assignment 1-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Assignment 1-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Assignment 1-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 1",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 1-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Secondary Objective 1-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Assignment 2-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Assignment 2-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Assignment 2-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 2",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 2-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Secondary Objective 2-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Assignment 3-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Assignment 3-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Assignment 3-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 3",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 3-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Secondary Objective 3-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Assignment 4-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Assignment 4-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Assignment 4-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 4",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 4-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Secondary Objective 4-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Assignment 5-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Assignment 5-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Assignment 5-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 5",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 5-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Secondary Objective 5-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Assignment 6-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Assignment 6-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Assignment 6-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 6",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 6-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Secondary Objective 6-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Assignment 7-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Assignment 7-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Assignment 7-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 7",
-		"place_item_category": ["Mission"]
-	},
-	{
-		"name": "Secondary Objective 7-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Secondary Objective 7-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Assignment 8-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Assignment 8-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Assignment 8-3",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Secondary Objective 8-1",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Secondary Objective 8-2",
-		"category": ["Missions"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Resupply 1",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Resupply 2",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Resupply 3",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Resupply 4",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Resupply 5",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Resupply 6",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Resupply 7",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Resupply 8",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Resupply 9",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Resupply 10",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Resupply 11",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Resupply 12",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Resupply 13",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Resupply 14",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Resupply 15",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Resupply 16",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Resupply 17",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Resupply 18",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Resupply 19",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Resupply 20",
-		"category": ["Check Shop","Resupply"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "50 Nitra 1",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Nitra 2",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Nitra 3",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Nitra 4",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "50 Nitra 5",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "50 Nitra 6",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Nitra 7",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Nitra 8",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Nitra 9",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "50 Nitra 10",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "50 Nitra 11",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Nitra 12",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Nitra 13",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Nitra 14",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "50 Nitra 15",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "50 Nitra 16",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Nitra 17",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Nitra 18",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Nitra 19",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "50 Nitra 20",
-		"category": ["Check Shop","Nitra"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "50 Gold 1",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Gold 2",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Gold 3",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "50 Gold 4",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "50 Gold 5",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "50 Gold 6",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "50 Gold 7",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Gold 8",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Gold 9",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "50 Gold 10",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "50 Gold 11",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "50 Gold 12",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "50 Gold 13",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Gold 14",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Gold 15",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "50 Gold 16",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "50 Gold 17",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "50 Gold 18",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "50 Gold 19",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Gold 20",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Gold 21",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "50 Gold 22",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "50 Gold 23",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "50 Gold 24",
-		"category": ["Check Shop"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Crafting Mineral 1",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Crafting Mineral 2",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Crafting Mineral 3",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Crafting Mineral 4",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Crafting Mineral 5",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Crafting Mineral 6",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Crafting Mineral 7",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Crafting Mineral 8",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Crafting Mineral 9",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Crafting Mineral 10",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Crafting Mineral 11",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Crafting Mineral 12",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Crafting Mineral 13",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Crafting Mineral 14",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Crafting Mineral 15",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Crafting Mineral 16",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Hops 1",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 1"
-	},
-	{
-		"name": "Hops 2",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Hops 3",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 2"
-	},
-	{
-		"name": "Hops 4",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 3"
-	},
-	{
-		"name": "Hops 5",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Hops 6",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 4"
-	},
-	{
-		"name": "Hops 7",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 5"
-	},
-	{
-		"name": "Hops 8",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Hops 9",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 6"
-	},
-	{
-		"name": "Hops 10",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 7"
-	},
-	{
-		"name": "Hops 11",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Hops 12",
-		"category": ["Unique Resources"],
-		"requires": [],
-        "region": "Assignment 8"
-	},
-	{
-		"name": "Loot Bug",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff0"
-	},
-	{
-		"name": "Glyphid Praetorian",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff0"
-	},
-	{
-		"name": "Glyphid Opressor",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff2"
-	},
-	{
-		"name": "Glyphid Septic Spreader",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff1"
-	},
-	{
-		"name": "Glyphid Menace",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff2"
-	},
-	{
-		"name": "Glyphid Warden",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff1"
-	},
-	{
-		"name": "Glyphid Bulk Detonator / Crassus Detonator",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff4"
-	},
-	{
-		"name": "Brood Nexus",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff3"
-	},
-	{
-		"name": "Q'ronar Shellback",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff3"
-	},
-	{
-		"name": "Mactera Tri-Jaw",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff2"
-	},
-	{
-		"name": "Mactera Brundle",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff2"
-	},
-	{
-		"name": "Mactera Grabber",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff2"
-	},
-	{
-		"name": "Mactera Goo Bomber",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff3"
-	},
-	{
-		"name": "Cave Leech",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff3"
-	},
-	{
-		"name": "Spitball Infector",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff3"
-	},
-	{
-		"name": "Naedocyte Breeder",
-		"category": ["Extermination Tasks"],
-		"requires": [],
-        "region": "Diff4"
-	},
-	{
-        "victory": true,
-		"name": "Complete all Archipelago Assignments",
-		"category": [],
-		"requires": "(|Assignments Complete!|)"
+	{"name": "Assignment 1-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 1"},
+	{"name": "Assignment 1-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 1"},
+	{"name": "Assignment 1-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 1", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 1-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 1"},
+	{"name": "Secondary Objective 1-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 1"},
+	{"name": "Assignment 2-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 2"},
+	{"name": "Assignment 2-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 2"},
+	{"name": "Assignment 2-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 2", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 2-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 2"},
+	{"name": "Secondary Objective 2-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 2"},
+	{"name": "Assignment 3-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 3"},
+	{"name": "Assignment 3-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 3"},
+	{"name": "Assignment 3-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 3", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 3-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 3"},
+	{"name": "Secondary Objective 3-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 3"},
+	{"name": "Assignment 4-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 4"},
+	{"name": "Assignment 4-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 4"},
+	{"name": "Assignment 4-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 4", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 4-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 4"},
+	{"name": "Secondary Objective 4-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 4"},
+	{"name": "Assignment 5-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 5"},
+	{"name": "Assignment 5-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 5"},
+	{"name": "Assignment 5-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 5", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 5-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 5"},
+	{"name": "Secondary Objective 5-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 5"},
+	{"name": "Assignment 6-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 6"},
+	{"name": "Assignment 6-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 6"},
+	{"name": "Assignment 6-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 6", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 6-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 6"},
+	{"name": "Secondary Objective 6-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 6"},
+	{"name": "Assignment 7-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 7"},
+	{"name": "Assignment 7-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 7"},
+	{"name": "Assignment 7-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 7", "place_item_category": ["(s) Missions"]
+	},
+	{"name": "Secondary Objective 7-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 7"},
+	{"name": "Secondary Objective 7-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 7"},
+	{"name": "Assignment 8-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 8"},
+	{"name": "Assignment 8-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 8"},
+	{"name": "Assignment 8-3", "category": ["short", "Missions"], "requires": [], "region": "Assignment 8"},
+	{"name": "Secondary Objective 8-1", "category": ["short", "Missions"], "requires": [], "region": "Assignment 8"},
+	{"name": "Secondary Objective 8-2", "category": ["short", "Missions"], "requires": [], "region": "Assignment 8"},
+
+	{"name": "Resupply 1", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 1"},
+	{"name": "Resupply 2", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 1"},
+	{"name": "Resupply 3", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 1"},
+	{"name": "Resupply 4", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 2"},
+	{"name": "Resupply 5", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 2"},
+	{"name": "Resupply 6", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 3"},
+	{"name": "Resupply 7", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 3"},
+	{"name": "Resupply 8", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 3"},
+	{"name": "Resupply 9", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 4"},
+	{"name": "Resupply 10", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 4"},
+	{"name": "Resupply 11", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 5"},
+	{"name": "Resupply 12", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 5"},
+	{"name": "Resupply 13", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 5"},
+	{"name": "Resupply 14", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 6"},
+	{"name": "Resupply 15", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 6"},
+	{"name": "Resupply 16", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 7"},
+	{"name": "Resupply 17", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 7"},
+	{"name": "Resupply 18", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 7"},
+	{"name": "Resupply 19", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 8"},
+	{"name": "Resupply 20", "category": ["short", "Check Shop","Resupply"], "requires": [], "region": "Assignment 8"},
+
+	{"name": "50 Nitra 1", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Nitra 2", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Nitra 3", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Nitra 4", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 2"},
+	{"name": "50 Nitra 5", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 2"},
+	{"name": "50 Nitra 6", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Nitra 7", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Nitra 8", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Nitra 9", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 4"},
+	{"name": "50 Nitra 10", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 4"},
+	{"name": "50 Nitra 11", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Nitra 12", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Nitra 13", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Nitra 14", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 6"},
+	{"name": "50 Nitra 15", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 6"},
+	{"name": "50 Nitra 16", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Nitra 17", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Nitra 18", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Nitra 19", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 8"},
+	{"name": "50 Nitra 20", "category": ["short", "Check Shop","Nitra"], "requires": [], "region": "Assignment 8"},
+
+	{"name": "50 Gold 1", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Gold 2", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Gold 3", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 1"},
+	{"name": "50 Gold 4", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 2"},
+	{"name": "50 Gold 5", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 2"},
+	{"name": "50 Gold 6", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 2"},
+	{"name": "50 Gold 7", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Gold 8", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Gold 9", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 3"},
+	{"name": "50 Gold 10", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 4"},
+	{"name": "50 Gold 11", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 4"},
+	{"name": "50 Gold 12", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 4"},
+	{"name": "50 Gold 13", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Gold 14", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Gold 15", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 5"},
+	{"name": "50 Gold 16", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 6"},
+	{"name": "50 Gold 17", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 6"},
+	{"name": "50 Gold 18", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 6"},
+	{"name": "50 Gold 19", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Gold 20", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Gold 21", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 7"},
+	{"name": "50 Gold 22", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 8"},
+	{"name": "50 Gold 23", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 8"},
+	{"name": "50 Gold 24", "category": ["short", "Check Shop"], "requires": [], "region": "Assignment 8"},
+
+	{"name": "Crafting Mineral 1", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 1"},
+	{"name": "Crafting Mineral 2", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 1"},
+	{"name": "Crafting Mineral 3", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 2"},
+	{"name": "Crafting Mineral 4", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 2"},
+	{"name": "Crafting Mineral 5", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 3"},
+	{"name": "Crafting Mineral 6", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 3"},
+	{"name": "Crafting Mineral 7", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 4"},
+	{"name": "Crafting Mineral 8", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 4"},
+	{"name": "Crafting Mineral 9", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 5"},
+	{"name": "Crafting Mineral 10", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 5"},
+	{"name": "Crafting Mineral 11", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 6"},
+	{"name": "Crafting Mineral 12", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 6"},
+	{"name": "Crafting Mineral 13", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 7"},
+	{"name": "Crafting Mineral 14", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 7"},
+	{"name": "Crafting Mineral 15", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 8"},
+	{"name": "Crafting Mineral 16", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 8"},
+
+	{"name": "Hops 1", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 1"},
+	{"name": "Hops 2", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 2"},
+	{"name": "Hops 3", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 2"},
+	{"name": "Hops 4", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 3"},
+	{"name": "Hops 5", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 4"},
+	{"name": "Hops 6", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 4"},
+	{"name": "Hops 7", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 5"},
+	{"name": "Hops 8", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 6"},
+	{"name": "Hops 9", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 6"},
+	{"name": "Hops 10", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 7"},
+	{"name": "Hops 11", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 8"},
+	{"name": "Hops 12", "category": ["short", "Unique Resources"], "requires": [], "region": "Assignment 8"},
+	
+	{"name": "Loot Bug", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff0"},
+	{"name": "Glyphid Praetorian", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff0"},
+	{"name": "Glyphid Opressor", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff2"},
+	{"name": "Glyphid Septic Spreader", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff1"},
+	{"name": "Glyphid Menace", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff2"},
+	{"name": "Glyphid Warden", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff1"},
+	{"name": "Glyphid Bulk Detonator / Crassus Detonator", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff4"},
+	{"name": "Brood Nexus", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff3"},
+	{"name": "Q'ronar Shellback", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff3"},
+	{"name": "Mactera Tri-Jaw", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff2"},
+	{"name": "Mactera Brundle", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff2"},
+	{"name": "Mactera Grabber", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff2"},
+	{"name": "Mactera Goo Bomber", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff3"},
+	{"name": "Cave Leech", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff3"},
+	{"name": "Spitball Infector", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff3"},
+	{"name": "Naedocyte Breeder", "category": ["short", "Extermination Tasks"], "requires": [], "region": "Diff4"},
+
+
+	{"name": "Mining Expedition with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Mining Expedition with Driller|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Mining Expedition with Driller|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Mining Expedition with Engineer|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Mining Expedition with Engineer|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Mining Expedition with Gunner|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Mining Expedition with Gunner|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Mining Expedition with Scout|", "region": "Class assignments"},
+	{"name": "Mining Expedition with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Mining Expedition with Scout|", "region": "Class assignments"},
+	{"name": "Egg Hunt with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Egg Hunt with Driller|", "region": "Class assignments"},    
+	{"name": "Egg Hunt with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Egg Hunt with Driller|", "region": "Class assignments"},    
+	{"name": "Egg Hunt with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Egg Hunt with Engineer|", "region": "Class assignments"}, 
+	{"name": "Egg Hunt with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Egg Hunt with Engineer|", "region": "Class assignments"}, 
+	{"name": "Egg Hunt with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Egg Hunt with Gunner|", "region": "Class assignments"},       
+	{"name": "Egg Hunt with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Egg Hunt with Gunner|", "region": "Class assignments"},       
+	{"name": "Egg Hunt with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Egg Hunt with Scout|", "region": "Class assignments"},
+	{"name": "Egg Hunt with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Egg Hunt with Scout|", "region": "Class assignments"},
+	{"name": "On-site Refining with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|On-site Refining with Driller|", "region": "Class assignments"},
+	{"name": "On-site Refining with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|On-site Refining with Driller|", "region": "Class assignments"},
+	{"name": "On-site Refining with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|On-site Refining with Engineer|", "region": "Class assignments"},
+	{"name": "On-site Refining with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|On-site Refining with Engineer|", "region": "Class assignments"},
+	{"name": "On-site Refining with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|On-site Refining with Gunner|", "region": "Class assignments"},
+	{"name": "On-site Refining with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|On-site Refining with Gunner|", "region": "Class assignments"},
+	{"name": "On-site Refining with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|On-site Refining with Scout|", "region": "Class assignments"},
+	{"name": "On-site Refining with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|On-site Refining with Scout|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Salvage Operation with Driller|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Salvage Operation with Driller|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Salvage Operation with Engineer|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Salvage Operation with Engineer|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Salvage Operation with Gunner|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Salvage Operation with Gunner|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Salvage Operation with Scout|", "region": "Class assignments"},
+	{"name": "Salvage Operation with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Salvage Operation with Scout|", "region": "Class assignments"},
+	{"name": "Point Extraction with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Point Extraction with Driller|", "region": "Class assignments"},
+	{"name": "Point Extraction with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Point Extraction with Driller|", "region": "Class assignments"},
+	{"name": "Point Extraction with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Point Extraction with Engineer|", "region": "Class assignments"},
+	{"name": "Point Extraction with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Point Extraction with Engineer|", "region": "Class assignments"},
+	{"name": "Point Extraction with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Point Extraction with Gunner|", "region": "Class assignments"},
+	{"name": "Point Extraction with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Point Extraction with Gunner|", "region": "Class assignments"},
+	{"name": "Point Extraction with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Point Extraction with Scout|", "region": "Class assignments"},
+	{"name": "Point Extraction with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Point Extraction with Scout|", "region": "Class assignments"},
+	{"name": "Escort Duty with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Escort Duty with Driller|", "region": "Class assignments"},
+	{"name": "Escort Duty with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Escort Duty with Driller|", "region": "Class assignments"},
+	{"name": "Escort Duty with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Escort Duty with Engineer|", "region": "Class assignments"},
+	{"name": "Escort Duty with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Escort Duty with Engineer|", "region": "Class assignments"},
+	{"name": "Escort Duty with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Escort Duty with Gunner|", "region": "Class assignments"}, 
+	{"name": "Escort Duty with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Escort Duty with Gunner|", "region": "Class assignments"}, 
+	{"name": "Escort Duty with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Escort Duty with Scout|", "region": "Class assignments"},    
+	{"name": "Escort Duty with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Escort Duty with Scout|", "region": "Class assignments"},    
+	{"name": "Elimination with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Elimination with Driller|", "region": "Class assignments"},
+	{"name": "Elimination with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Elimination with Driller|", "region": "Class assignments"},
+	{"name": "Elimination with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Elimination with Engineer|", "region": "Class assignments"},
+	{"name": "Elimination with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Elimination with Engineer|", "region": "Class assignments"},
+	{"name": "Elimination with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Elimination with Gunner|", "region": "Class assignments"}, 
+	{"name": "Elimination with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Elimination with Gunner|", "region": "Class assignments"}, 
+	{"name": "Elimination with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Elimination with Scout|", "region": "Class assignments"},    
+	{"name": "Elimination with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Elimination with Scout|", "region": "Class assignments"},    
+	{"name": "Industrial Sabotage with Driller - Reward 1", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Driller|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Driller - Reward 2", "category": ["long", "Driller assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Driller|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Engineer - Reward 1", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Engineer|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Engineer - Reward 2", "category": ["long", "Engineer assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Engineer|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Gunner - Reward 1", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Gunner|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Gunner - Reward 2", "category": ["long", "Gunner assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Gunner|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Scout - Reward 1", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Scout|", "region": "Class assignments"},
+	{"name": "Industrial Sabotage with Scout - Reward 2", "category": ["long", "Scout assignments", "ClassAssignments"], "requires": "|Industrial Sabotage with Scout|", "region": "Class assignments"},
+
+	{"name": "Secondary objective Alien Fossil", "category": ["long", "Secondary objectives"], "requires": "|Alien Fossil|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Apoca Bloom", "category": ["long", "Secondary objectives"], "requires": "|Apoca Bloom|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Boolo Cap", "category": ["long", "Secondary objectives"], "requires": "|Boolo Cap|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Dystrum", "category": ["long", "Secondary objectives"], "requires": "|Dystrum|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Ebonut", "category": ["long", "Secondary objectives"], "requires": "|Ebonut|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Fester Flea", "category": ["long", "Secondary objectives"], "requires": "|Fester Flea|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Gunk Seed", "category": ["long", "Secondary objectives"], "requires": "|Gunk Seed|", "region": "Secondary objectives"},
+	{"name": "Secondary objective Hollomite", "category": ["long", "Secondary objectives"], "requires": "|Hollomite|", "region": "Secondary objectives"},
+
+	{"name": "Warning Cave Leech Cluster", "category": ["long", "Warning mutators"], "requires": "|Cave Leech Cluster|", "region": "Warning mutators"},
+	{"name": "Warning Elite Threat", "category": ["long", "Warning mutators"], "requires": "|Elite Threat|", "region": "Warning mutators"},
+	{"name": "Warning Exploder Infestation!", "category": ["long", "Warning mutators"], "requires": "|Exploder Infestation!|", "region": "Warning mutators"},
+	{"name": "Warning Haunted Cave", "category": ["long", "Warning mutators"], "requires": "|Haunted Cave|", "region": "Warning mutators"},
+	{"name": "Warning Lethal Enemies", "category": ["long", "Warning mutators"], "requires": "|Lethal Enemies|", "region": "Warning mutators"},
+	{"name": "Warning Lithophage Outbreak", "category": ["long", "Warning mutators"], "requires": "|Lithophage Outbreak|", "region": "Warning mutators"},
+	{"name": "Warning Low Oxygen", "category": ["long", "Warning mutators"], "requires": "|Low Oxygen|", "region": "Warning mutators"},
+	{"name": "Warning Mactera Plague", "category": ["long", "Warning mutators"], "requires": "|Mactera Plague|", "region": "Warning mutators"},
+	{"name": "Warning Parasites", "category": ["long", "Warning mutators"], "requires": "|Parasites|", "region": "Warning mutators"},
+	{"name": "Warning Regenerative Bugs", "category": ["long", "Warning mutators"], "requires": "|Regenerative Bugs|", "region": "Warning mutators"},
+	{"name": "Warning Rival Presence", "category": ["long", "Warning mutators"], "requires": "|Rival Presence|", "region": "Warning mutators"},
+	{"name": "Warning Shield Disruption", "category": ["long", "Warning mutators"], "requires": "|Shield Disruption|", "region": "Warning mutators"},
+	{"name": "Warning Swarmageddon", "category": ["long", "Warning mutators"], "requires": "|Swarmageddon|", "region": "Warning mutators"},
+
+	{"name": "Anomaly Critical Weakness", "category": ["long", "Anomaly mutators"], "requires": "|Critical Weakness|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Double XP", "category": ["long", "Anomaly mutators"], "requires": "|Double XP|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Gold Rush", "category": ["long", "Anomaly mutators"], "requires": "|Gold Rush|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Golden Bugs", "category": ["long", "Anomaly mutators"], "requires": "|Golden Bugs|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Low Gravity", "category": ["long", "Anomaly mutators"], "requires": "|Low Gravity|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Mineral Mania", "category": ["long", "Anomaly mutators"], "requires": "|Mineral Mania|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Rich Atmosphere", "category": ["long", "Anomaly mutators"], "requires": "|Rich Atmosphere|", "region": "Anomaly mutators"},
+	{"name": "Anomaly Volatile Guts", "category": ["long", "Anomaly mutators"], "requires": "|Volatile Guts|", "region": "Anomaly mutators"},
+
+	{"name": "Deep Dive 1 - Stage 1", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD1"},
+	{"name": "Deep Dive 1 - Stage 2", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD1"},
+	{"name": "Deep Dive 1 - Stage 3", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD1"},
+	{"name": "Elite Deep Dive 1 - Stage 1", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD1"},
+	{"name": "Elite Deep Dive 1 - Stage 2", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD1"},
+	{"name": "Elite Deep Dive 1 - Stage 3", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD1"},
+	{"name": "Deep Dive 2 - Stage 1", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD2"},
+	{"name": "Deep Dive 2 - Stage 2", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD2"},
+	{"name": "Deep Dive 2 - Stage 3", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD2"},
+	{"name": "Elite Deep Dive 2 - Stage 1", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD2"},
+	{"name": "Elite Deep Dive 2 - Stage 2", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD2"},
+	{"name": "Elite Deep Dive 2 - Stage 3", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD2"},
+	{"name": "Deep Dive 3 - Stage 1", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD3"},
+	{"name": "Deep Dive 3 - Stage 2", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD3"},
+	{"name": "Deep Dive 3 - Stage 3", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD3"},
+	{"name": "Elite Deep Dive 3 - Stage 1", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD3"},
+	{"name": "Elite Deep Dive 3 - Stage 2", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD3"},
+	{"name": "Elite Deep Dive 3 - Stage 3", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD3"},
+	{"name": "Deep Dive 4 - Stage 1", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD4"},
+	{"name": "Deep Dive 4 - Stage 2", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD4"},
+	{"name": "Deep Dive 4 - Stage 3", "category": ["long", "Deep Dives", "DeepDive"], "region": "DD4"},
+	{"name": "Elite Deep Dive 4 - Stage 1", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD4"},
+	{"name": "Elite Deep Dive 4 - Stage 2", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD4"},
+	{"name": "Elite Deep Dive 4 - Stage 3", "category": ["long", "Deep Dives", "EliteDeepDive"], "region": "EDD4"},
+
+	{"name": "Weekly Priority Assignment 1 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WPA1"},
+	{"name": "Weekly Priority Assignment 1 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WPA1"},
+	{"name": "Weekly Priority Assignment 1 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WPA1"},
+	{"name": "Weekly Core Hunt 1 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WCH1"},
+	{"name": "Weekly Core Hunt 1 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WCH1"},
+	{"name": "Weekly Core Hunt 1 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WCH1"},
+	{"name": "Weekly Priority Assignment 2 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WPA2"},
+	{"name": "Weekly Priority Assignment 2 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WPA2"},
+	{"name": "Weekly Priority Assignment 2 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WPA2"},
+	{"name": "Weekly Core Hunt 2 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WCH2"},
+	{"name": "Weekly Core Hunt 2 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WCH2"},
+	{"name": "Weekly Core Hunt 2 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WCH2"},
+	{"name": "Weekly Priority Assignment 3 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WPA3"},
+	{"name": "Weekly Priority Assignment 3 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WPA3"},
+	{"name": "Weekly Priority Assignment 3 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WPA3"},
+	{"name": "Weekly Core Hunt 3 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WCH3"},
+	{"name": "Weekly Core Hunt 3 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WCH3"},
+	{"name": "Weekly Core Hunt 3 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WCH3"},
+	{"name": "Weekly Priority Assignment 4 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WPA4"},
+	{"name": "Weekly Priority Assignment 4 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WPA4"},
+	{"name": "Weekly Priority Assignment 4 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WPA4"},
+	{"name": "Weekly Core Hunt 4 - Mission 1", "category": ["long", "Weekly assignments"], "region": "WCH4"},
+	{"name": "Weekly Core Hunt 4 - Mission 2", "category": ["long", "Weekly assignments"], "region": "WCH4"},
+	{"name": "Weekly Core Hunt 4 - Mission 3", "category": ["long", "Weekly assignments"], "region": "WCH4"},
+
+	{"name": "Season Challenge 01", "category": ["long", "Season challenges"], "requires": "|Season challenge: 1|"},
+	{"name": "Season Challenge 02", "category": ["long", "Season challenges"], "requires": "|Season challenge: 2|"},
+	{"name": "Season Challenge 03", "category": ["long", "Season challenges"], "requires": "|Season challenge: 3|"},
+	{"name": "Season Challenge 04", "category": ["long", "Season challenges"], "requires": "|Season challenge: 4|"},
+	{"name": "Season Challenge 05", "category": ["long", "Season challenges"], "requires": "|Season challenge: 5|"},
+	{"name": "Season Challenge 06", "category": ["long", "Season challenges"], "requires": "|Season challenge: 6|"},
+	{"name": "Season Challenge 07", "category": ["long", "Season challenges"], "requires": "|Season challenge: 7|"},
+	{"name": "Season Challenge 08", "category": ["long", "Season challenges"], "requires": "|Season challenge: 8|"},
+	{"name": "Season Challenge 09", "category": ["long", "Season challenges"], "requires": "|Season challenge: 9|"},
+	{"name": "Season Challenge 10", "category": ["long", "Season challenges"], "requires": "|Season challenge: 10|"},
+	{"name": "Season Challenge 11", "category": ["long", "Season challenges"], "requires": "|Season challenge: 11|"},
+	{"name": "Season Challenge 12", "category": ["long", "Season challenges"], "requires": "|Season challenge: 12|"},
+	{"name": "Season Challenge 13", "category": ["long", "Season challenges"], "requires": "|Season challenge: 13|"},
+	{"name": "Season Challenge 14", "category": ["long", "Season challenges"], "requires": "|Season challenge: 14|"},
+	{"name": "Season Challenge 15", "category": ["long", "Season challenges"], "requires": "|Season challenge: 15|"},
+	{"name": "Season Challenge 16", "category": ["long", "Season challenges"], "requires": "|Season challenge: 16|"},
+	{"name": "Season Challenge 17", "category": ["long", "Season challenges"], "requires": "|Season challenge: 17|"},
+	{"name": "Season Challenge 18", "category": ["long", "Season challenges"], "requires": "|Season challenge: 18|"},
+	{"name": "Season Challenge 19", "category": ["long", "Season challenges"], "requires": "|Season challenge: 19|"},
+	{"name": "Season Challenge 20", "category": ["long", "Season challenges"], "requires": "|Season challenge: 20|"},
+	{"name": "Season Challenge 21", "category": ["long", "Season challenges"], "requires": "|Season challenge: 21|"},
+	{"name": "Season Challenge 22", "category": ["long", "Season challenges"], "requires": "|Season challenge: 22|"},
+	{"name": "Season Challenge 23", "category": ["long", "Season challenges"], "requires": "|Season challenge: 23|"},
+	{"name": "Season Challenge 24", "category": ["long", "Season challenges"], "requires": "|Season challenge: 24|"},
+	{"name": "Season Challenge 25", "category": ["long", "Season challenges"], "requires": "|Season challenge: 25|"},
+	{"name": "Season Challenge 26", "category": ["long", "Season challenges"], "requires": "|Season challenge: 26|"},
+	{"name": "Season Challenge 27", "category": ["long", "Season challenges"], "requires": "|Season challenge: 27|"},
+	{"name": "Season Challenge 28", "category": ["long", "Season challenges"], "requires": "|Season challenge: 28|"},
+	{"name": "Season Challenge 29", "category": ["long", "Season challenges"], "requires": "|Season challenge: 29|"},
+	{"name": "Season Challenge 30", "category": ["long", "Season challenges"], "requires": "|Season challenge: 30|"},
+
+
+	{"victory": true, "name": "Complete all Archipelago Assignments", "category": ["Victory location"], "requires": "(|Assignments Complete!|)"},
+	
+	{"name": "Complete 4 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 4|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 5 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 5|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 6 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 6|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 7 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 7|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 8 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 8|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 9 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 9|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 10 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 10|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 11 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 11|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 12 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 12|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 13 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 13|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 14 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 14|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 15 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 15|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 16 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 16|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 17 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 17|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 18 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 18|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 19 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 19|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 20 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 20|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 21 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 21|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 22 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 22|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 23 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 23|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 24 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 24|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 25 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 25|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 26 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 26|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 27 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 27|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 28 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 28|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 29 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 29|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 30 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 30|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 31 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 31|", "place_item": ["Assignments Complete!"]},
+	{"name": "Complete 32 missions", "category": ["Victory location", "long"], "requires": "|@ClassAssignments: 32|", "place_item": ["Assignments Complete!"]
 	}
 ]

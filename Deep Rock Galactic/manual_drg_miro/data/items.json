@@ -1,260 +1,124 @@
 [
-	{
-		"count":1,
-		"name": "Mining Expedition",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Egg Hunt",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "On-site Refining",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Salvage Operation",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Point Extraction",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Escort Duty",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Elimination",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Industrial Sabotage",
-		"category": ["Mission"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Driller",
-		"category": ["Class"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Engineer",
-		"category": ["Class"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Gunner",
-		"category": ["Class"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Scout",
-		"category": ["Class"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Primary Weapon 1",
-		"category": ["Primary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Primary Weapon 2",
-		"category": ["Primary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Primary Weapon 3",
-		"category": ["Primary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Secondary Weapon 1",
-		"category": ["Secondary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Secondary Weapon 2",
-		"category": ["Secondary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Secondary Weapon 3",
-		"category": ["Secondary Weapon", "Weapons"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Primary Upgrade",
-		"category": ["Weapon Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "Primary Overclock",
-		"category": ["Weapon Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Secondary Upgrade",
-		"category": ["Weapon Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "Secondary Overclock",
-		"category": ["Weapon Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "2",
-		"name": "Pickaxe Upgrade",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Traversal Tool 1/4",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "5",
-		"name": "Special Equipment 1/4",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "4",
-		"name": "Throwable Unlock",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "4",
-		"name": "Armor Upgrade",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "6",
-		"name": "Bosco 1/5",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "3",
-		"name": "Passive Perk Slot",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count": "2",
-		"name": "Active Perk Slot",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Buff Beer",
-		"category": ["Unlocks and Upgrades", "Upgrade"],
-		"useful": true
-	},
-	{
-		"count": "1",
-		"name": "AP4",
-		"category": [],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "AP5",
-		"category": [],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "AP6",
-		"category": [],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "AP7",
-		"category": [],
-		"progression": true
-	},
-	{
-		"count": "1",
-		"name": "AP8",
-		"category": [],
-		"progression": true
-	},
-	{
-		"count": "0",
-		"name": "Start the next mission drunk",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count": "0",
-		"name": "Play Jetty Boot",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count": "0",
-		"name": "Play Barrel Hoop",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count": "0",
-		"name": "Order a round of Leaf Lover's Special, you buzzkill",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count": "0",
-		"name": "Tell a friend about Archipelago",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count": "0",
-		"name": "If possible, play your next mission with a warning mutator",
-		"category": ["Trap"],
-		"trap": true
-	},
-	{
-		"count":1,
-		"name": "Assignments Complete!",
-		"category": ["Victory"],
-		"progression": true
+	{"count":1, "name": "Mining Expedition", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Egg Hunt", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "On-site Refining", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Salvage Operation", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Point Extraction", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Escort Duty", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Elimination", "category": ["short", "(s) Missions"], "progression": true},
+	{"count":1, "name": "Industrial Sabotage", "category": ["short", "(s) Missions"], "progression": true},
+	
+	{"count":1, "name": "Driller", "category": ["short", "(s) Classes"], "useful": true},
+	{"count":1, "name": "Engineer", "category": ["short", "(s) Classes"], "useful": true},
+	{"count":1, "name": "Gunner", "category": ["short", "(s) Classes"], "useful": true},
+	{"count":1, "name": "Scout", "category": ["short", "(s) Classes"], "useful": true},
+	
+	{"count":1, "name": "Primary Weapon 1", "category": ["short", "Primary Weapon", "(s) Weapons"], "progression": true},
+	{"count":1, "name": "Primary Weapon 2", "category": ["short", "Primary Weapon", "(s) Weapons"], "progression": true},
+	{"count":1, "name": "Primary Weapon 3", "category": ["short", "Primary Weapon", "(s) Weapons"], "progression": true},
+	{"count":1, "name": "Secondary Weapon 1", "category": ["short", "Secondary Weapon", "(s) Weapons"], "progression": true},
+	{"count":1, "name": "Secondary Weapon 2", "category": ["short", "Secondary Weapon", "(s) Weapons"], "progression": true},
+	{"count":1, "name": "Secondary Weapon 3", "category": ["short", "Secondary Weapon", "(s) Weapons"], "progression": true},
+	
+	{"count": 5, "name": "Primary Upgrade", "category": ["short", "(s) Weapon upgrades", "Upgrade"], "progression": true},
+	{"count": 1, "name": "Primary Overclock", "category": ["short", "(s) Weapon upgrades", "Upgrade"], "progression": true},
+	{"count": 5, "name": "Secondary Upgrade", "category": ["short", "(s) Weapon upgrades", "Upgrade"], "progression": true},
+	{"count": 1, "name": "Secondary Overclock", "category": ["short", "(s) Weapon upgrades", "Upgrade"], "progression": true},
+	{"count": 2, "name": "Pickaxe Upgrade", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 5, "name": "Traversal Tool 1/4", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 5, "name": "Special Equipment 1/4", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 4, "name": "Throwable Unlock", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 4, "name": "Armor Upgrade", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 6, "name": "Bosco 1/5", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 3, "name": "Passive Perk Slot", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 3, "name": "Active Perk Slot", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "progression": true},
+	{"count": 1, "name": "Buff Beer", "category": ["short", "(s) Unlocks and upgrades", "Upgrade"], "useful": true},
+	
+	{"count": 1, "name": "Logic-only item for 4 assignments", "category": ["short", "logicItem"], "progression": true},
+	{"count": 1, "name": "Logic-only item for 5 assignments", "category": ["short", "logicItem"], "progression": true},
+	{"count": 1, "name": "Logic-only item for 6 assignments", "category": ["short", "logicItem"], "progression": true},
+	{"count": 1, "name": "Logic-only item for 7 assignments", "category": ["short", "logicItem"], "progression": true},
+	{"count": 1, "name": "Logic-only item for 8 assignments", "category": ["short", "logicItem"], "progression": true},
+	
+	{"count": 0, "name": "Start the next mission drunk", "category": ["short", "Traps"], "trap": true},
+	{"count": 0, "name": "Play Jetty Boot", "category": ["short", "Traps"], "trap": true},
+	{"count": 0, "name": "Play Barrel Hoop", "category": ["short", "Traps"], "trap": true},
+	{"count": 0, "name": "Order a round of Leaf Lover's Special, you buzzkill", "category": ["short", "Traps"], "trap": true},
+	{"count": 0, "name": "Tell a friend about Archipelago", "category": ["short", "Traps"], "trap": true},
+	{"count": 0, "name": "If possible, play your next mission with a warning mutator", "category": ["short", "Traps"], "trap": true},
+
+
+	{"count":1, "name": "Mining Expedition with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Mining Expedition with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Mining Expedition with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Mining Expedition with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Egg Hunt with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Egg Hunt with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Egg Hunt with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Egg Hunt with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "On-site Refining with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "On-site Refining with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "On-site Refining with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "On-site Refining with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Salvage Operation with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Salvage Operation with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Salvage Operation with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Salvage Operation with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Point Extraction with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Point Extraction with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Point Extraction with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Point Extraction with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Escort Duty with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Escort Duty with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Escort Duty with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Escort Duty with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Elimination with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Elimination with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Elimination with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Elimination with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Industrial Sabotage with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Industrial Sabotage with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Industrial Sabotage with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Industrial Sabotage with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+
+	{"count":1, "name": "Alien Fossil", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Apoca Bloom", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Boolo Cap", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Dystrum", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Ebonut", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Fester Flea", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Gunk Seed", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Hollomite", "category": ["long", "(L) Secondary objectives"], "progression": true},
+
+	{"count":1, "name": "Cave Leech Cluster", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Elite Threat", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Exploder Infestation!", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Haunted Cave", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Lethal Enemies", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Lithophage Outbreak", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Low Oxygen", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Mactera Plague", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Parasites", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Regenerative Bugs", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Rival Presence", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Shield Disruption", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Swarmageddon", "category": ["long", "(L) Warning mutators"], "progression": true},
+
+	{"count":1, "name": "Critical Weakness", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Double XP", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Gold Rush", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Golden Bugs", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Low Gravity", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Mineral Mania", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Rich Atmosphere", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Volatile Guts", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+
+	{"count":4, "name": "Deep Dive", "category": ["long", "(L) Deep Dives", "DeepDive"], "progression": true},
+	{"count":4, "name": "Elite Deep Dive", "category": ["long", "(L) Deep Dives", "EliteDeepDive"], "progression": true},
+	{"count":4, "name": "Weekly Priority Assignment", "category": ["long", "(L) Weekly assignments"], "progression": true},
+	{"count":4, "name": "Weekly Core Hunt", "category": ["long", "(L) Weekly assignments"], "progression": true},
+	{"count":30, "name": "Season challenge", "category": ["long", "(L) Season challenges"], "progression": true},
+
+	{"count":1, "name": "Assignments Complete!", "category": ["Victory"], "progression": true
 	}
 ]
