@@ -1,33 +1,13 @@
 {
-	"rate1": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:1|"},
-	"rate2": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:1|"},
-	"rate3": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:2|"},
-	"rate4": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:6|"},
-	"rate5": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:8| AND |Progressive Food:1| AND |Progressive Stun:1|"},
-	"rate1A": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:2|"},
-	"rate2A": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:1| and |Progressive Stun:1|"},
-	"rate3A": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:2| and |Progressive Stun:1|"},
-	"rate4A": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:6| and |Progressive Stun:2|"},
-	"rate5A": 	{
-		"connects_to": [],
-		"requires": "|@Progressive Poké Balls:8| AND |Progressive Food:1| AND |Progressive Stun:2|"
+	"rate1": {"connects_to": [], "requires": "|@Progressive Poké Balls:1|"},
+	"rate2": {"connects_to": [], "requires": "|@Progressive Poké Balls:1|"},
+	"rate3": {"connects_to": [], "requires": "|@Progressive Poké Balls:2|"},
+	"rate4": {"connects_to": [], "requires": "|@Progressive Poké Balls:6|"},
+	"rate5": {"connects_to": [], "requires": "|@Progressive Poké Balls:8| AND |Progressive Food:1| AND |Progressive Stun:1|"},
+	"rate1A": {"connects_to": [], "requires": "|@Progressive Poké Balls:2|"},
+	"rate2A": {"connects_to": [], "requires": "|@Progressive Poké Balls:1| and |Progressive Stun:1|"},
+	"rate3A": {"connects_to": [], "requires": "|@Progressive Poké Balls:2| and |Progressive Stun:1|"},
+	"rate4A": {"connects_to": [], "requires": "|@Progressive Poké Balls:6| and |Progressive Stun:2|"},
+	"rate5A": {"connects_to": [], "requires": "|@Progressive Poké Balls:8| AND |Progressive Food:1| AND |Progressive Stun:2|"
 	}
 }

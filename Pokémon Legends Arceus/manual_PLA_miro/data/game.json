@@ -2,48 +2,5 @@
   "game": "PLA",
   "creator": "Miro",
   "filler_item_name": "Exp Candy",
-  "starting_items": [
-    {
-      "item_categories": [
-        "Regions"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "BaseOF"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "BaseCM"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "BaseCC"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "BaseCH"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "BaseAI"
-      ],
-      "random": 1
-    },
-    {
-      "item_categories": [
-        "Progressive Poké Balls"
-      ],
-      "random": 1
-    }
-  ]
+  "death_link": true
 }

@@ -1,39 +1,92 @@
-name: Player{number}
+﻿name: Player{number}
+description: Default Manual_PLA_Miro Template
 game: Manual_PLA_Miro
 requires:
-    version: 0.4.4
+  version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
+  
 Manual_PLA_Miro:
-    progression_balancing: 50
-    accessibility: items
-    alpha_locations: #Enable locations for each static alpha Pokémon
-      false: 0
-      true: 50
-    shiny_locations: #Enable 5 shiny locations, logically locked by shiny charm fragments. Not recommended with non_fish_locations disabled.
-      false: 50
-      true: 0
-#Set one of the following four settings to true to choose the goal and/or amount of wisps required for the goal. 108 wisps total, 10 space balm total.
-#wisp goals don't work with reduced locations (disabling not_fish locations)
-    required_wisps_for_goal_108_of_108: #100%
-      false: 50
-      true: 0
-    required_wisps_for_goal_81_of_108: #75%
-      false: 0
-      true: 50
-    required_wisps_for_goal_54_of_108: #50%
-      false: 50
-      true: 0
-    Calm_Palkia_with_10_space_balm:
-      false: 50
-      true: 0
-#Disable not_fish locations for themed fishing multiworlds.
-    enable_fish_locations: #fish_locations alone often has too few early locations to generate solo worlds.
-      false: 0
-      true: 50
-    enable_fish_related_locations: #this alone has too few locations to generate! Use together with fish/not_fish locations.
-      false: 0
-      true: 50
-    enable_not_fish_locations:
-      false: 0 #Remember to choose the Palkia goal when setting this to false!
-      true: 50
+  progression_balancing: 50
+  accessibility: items
+
+  local_items:
+    # Forces these items to be in their native world.
+    []
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+  start_inventory:
+    # Start with these items.
+    {}
+  start_hints:
+    # Start with these item's locations prefilled into the !hint command.
+    []
+  start_location_hints:
+    # Start with these locations and their item prefilled into the !hint command
+    []
 #Some Pokémon have very low spawn rates. I suggest excluding their locations. example: ["Phione", "Cherubi", "Cherrim", "Munchlax"]
-    exclude_locations: ["Phione"] #Having to reload an area for a 2% encounter is not fun. Remove this at your own risk.
+  exclude_locations: 
+    ["Phione"] #Having to reload an area for a 2% encounter is not fun. Remove this at your own risk.
+  priority_locations:
+    # Prevent these locations from having an unimportant item
+    []
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  wisps_total:
+    # Choose the number of Spiritomb wisps (macguffin hunt goal item) in the pool.
+    # This gets reduced automatically if there are too few locations due to fish_locations.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 108
+    108: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  wisps_required:
+    # Choose the number of Spiritomb wisps required to win.
+    # If this is set higher than wisps_total, it is reduced to match.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 108
+    100: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  fish_locations:
+    # For themed multiworlds: Choose if non-fish, fish and fish-related locations are active.
+    # Wisp maximum per setting, listed with / without alpha_locations:
+    # all: 108 / 108
+    # only_not_fish: 108 / 97
+    # only_fish_and_related: 16 / 10. Precollects some items to free up locations.
+    # only_fish: 13 / 7. Precollects some items to free up locations.
+    all: 50
+    only_not_fish: 0
+    only_fish_and_related: 0
+    only_fish: 0
+
+  alpha_locations:
+    # Enable locations for each static alpha Pokémon.
+    false: 0
+    true: 50
+
+  shiny_locations:
+    # Set the number of shiny locations in the pool, logically locked by shiny charm fragments.
+    # Not recommended with location count reduced by fishing mode. May require grinding, recommended: 5.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 10
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    false: 50
+    true: 0
