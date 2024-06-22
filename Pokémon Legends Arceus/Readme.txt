@@ -1,4 +1,4 @@
-Manual for Pokémon Legends Arceus, Version 1.1.0
+Manual for Pokémon Legends Arceus, Version 1.1.1
 by Miro with help from Hopop and ProfBytes
 
 This is an unstable manual apworld, use the Manual Client in the Archipelago Launcher to play. Use in combination with Universal Tracker is recommended.
@@ -43,6 +43,7 @@ Please message me in discord (@miro.name) if you find any mistakes or have quest
 
 
 Version History:
+1.1.1: Added CH to logic for Haunter.
 1.1.0: Updated to unstable release 20240528. Updated to use hooks for yaml options. Changed goal options: wisps_total and wisps_required. Condensed fishing options to fish_locations, fixed too few locations bug. Shiny_locations updated. Deathlink added.
 1.05: Fixed logic: Oshawott and Cyndaquil lines, Alakazam.
 1.04: Added shiny locations. Fixed logic: Croagunk.
