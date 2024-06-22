@@ -1,5 +1,6 @@
 {
   "game": "DRG",
   "creator": "Miro",
-  "filler_item_name": "Rock and Stone"
+  "filler_item_name": "Rock and Stone",
+  "death_link": true
 }
