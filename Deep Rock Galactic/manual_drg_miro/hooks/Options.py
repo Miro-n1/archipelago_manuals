@@ -49,16 +49,16 @@ class NitraRemaining(Toggle):
     display_name = "Remaining Nitra Checks"
 
 class MissionCount(Range):
-    """Choose the number of missions in the pool. Complete pool: 8 mission types * 4 classes = 32."""
+    """Choose the number of missions in the pool. Complete pool: 9 mission types * 4 classes = 36."""
     display_name = "Number of missions"
     range_start = 4
-    range_end = 32
+    range_end = 36
     default = 16
 
 class StartingMissionCount(Range):
     """Choose the number of starting missions."""
     display_name = "Number of starting missions"
-    range_start = 0
+    range_start = 1
     range_end = 16
     default = 4
 
@@ -66,7 +66,7 @@ class long_mission_completions_to_win(Range):
     """Choose the number of mission completions required for victory."""
     display_name = "Number of missions to win"
     range_start = 4
-    range_end = 32
+    range_end = 36
     default = 16
 
 #class long_trophies_count(Range):
@@ -84,16 +84,16 @@ class long_mission_completions_to_win(Range):
     #default = 0
 
 class SecondaryObjectives(Toggle):
-    """Adds locations for 8 secondary objectives."""
+    """Adds locations for 10 secondary objectives."""
     display_name = "Secondary objectives"
     default = True
 
 class Warnings(Toggle):
-    """Adds locations for 13 warning mutators."""
+    """Adds locations for 15 warning mutators."""
     display_name = "Warnings"
 
 class Anomalies(Toggle):
-    """Adds locations for 8 anomaly mutators."""
+    """Adds locations for 10 anomaly mutators."""
     display_name = "Anomalies"
 
 class DeepDiveCount(Range):
@@ -101,7 +101,7 @@ class DeepDiveCount(Range):
     Deep dive seeds refresh weekly."""
     display_name = "Number of deep dives"
     range_start = 0
-    range_end = 4
+    range_end = 6
     default = 1
 
 class EliteDeepDiveCount(Range):
@@ -109,7 +109,7 @@ class EliteDeepDiveCount(Range):
     Deep dive seeds refresh weekly."""
     display_name = "Number of elite deep dives"
     range_start = 0
-    range_end = 4
+    range_end = 6
     default = 0
 
 class WeeklyAssignmentCount(Range):
@@ -117,7 +117,7 @@ class WeeklyAssignmentCount(Range):
     The assignments refresh weekly, consider the planned async length."""
     display_name = "Number of weekly assignments"
     range_start = 0
-    range_end = 4
+    range_end = 6
     default = 0
 
 class SeasonChallengeCount(Range):

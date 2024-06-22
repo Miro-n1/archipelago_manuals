@@ -79,11 +79,11 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     locationNamesToRemove = []
     itemNamesToRemove = []
     regions_to_remove = []
-  
+
     if get_option_value(multiworld, player, "game_mode_short"):
         #Randomly select AP assignments:
         assignment_count = get_option_value(multiworld, player, "short_assignment_count")
-        missions = ["Mining Expedition", "Egg Hunt", "On-site Refining", "Salvage Operation", "Point Extraction", "Escort Duty", "Elimination", "Industrial Sabotage"]
+        missions = ["Mining Expedition", "Egg Hunt", "On-site Refining", "Salvage Operation", "Point Extraction", "Escort Duty", "Elimination", "Industrial Sabotage", "Deep Scan"]
         multiworld.random.shuffle(missions)
         missions_to_delete = missions[assignment_count:] #Deletes missions starting from index assignment_count
         for itemName in missions_to_delete: 
@@ -119,7 +119,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     else:
         #Randomly select missions, remove unneeded locations and items:
         mission_count = get_option_value(multiworld, player, "long_mission_count")
-        missions = ['Mining Expedition with Driller', 'Mining Expedition with Engineer', 'Mining Expedition with Gunner', 'Mining Expedition with Scout', 'Egg Hunt with Driller', 'Egg Hunt with Engineer', 'Egg Hunt with Gunner', 'Egg Hunt with Scout', 'On-site Refining with Driller', 'On-site Refining with Engineer', 'On-site Refining with Gunner', 'On-site Refining with Scout', 'Salvage Operation with Driller', 'Salvage Operation with Engineer', 'Salvage Operation with Gunner', 'Salvage Operation with Scout', 'Point Extraction with Driller', 'Point Extraction with Engineer', 'Point Extraction with Gunner', 'Point Extraction with Scout', 'Escort Duty with Driller', 'Escort Duty with Engineer', 'Escort Duty with Gunner', 'Escort Duty with Scout', 'Elimination with Driller', 'Elimination with Engineer', 'Elimination with Gunner', 'Elimination with Scout', 'Industrial Sabotage with Driller', 'Industrial Sabotage with Engineer', 'Industrial Sabotage with Gunner', 'Industrial Sabotage with Scout']
+        missions = ['Mining Expedition with Driller', 'Mining Expedition with Engineer', 'Mining Expedition with Gunner', 'Mining Expedition with Scout', 'Egg Hunt with Driller', 'Egg Hunt with Engineer', 'Egg Hunt with Gunner', 'Egg Hunt with Scout', 'On-site Refining with Driller', 'On-site Refining with Engineer', 'On-site Refining with Gunner', 'On-site Refining with Scout', 'Salvage Operation with Driller', 'Salvage Operation with Engineer', 'Salvage Operation with Gunner', 'Salvage Operation with Scout', 'Point Extraction with Driller', 'Point Extraction with Engineer', 'Point Extraction with Gunner', 'Point Extraction with Scout', 'Escort Duty with Driller', 'Escort Duty with Engineer', 'Escort Duty with Gunner', 'Escort Duty with Scout', 'Elimination with Driller', 'Elimination with Engineer', 'Elimination with Gunner', 'Elimination with Scout', 'Industrial Sabotage with Driller', 'Industrial Sabotage with Engineer', 'Industrial Sabotage with Gunner', 'Industrial Sabotage with Scout', 'Deep Scan with Driller', 'Deep Scan with Engineer', 'Deep Scan with Gunner', 'Deep Scan with Scout']
         multiworld.random.shuffle(missions)
         if hasattr(multiworld, "re_gen_passthrough") == False:
             missions_to_delete = missions[mission_count:] #Deletes missions starting from index mission_count
@@ -134,6 +134,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         #Start inventory missions: 
         starting_mission_count = get_option_value(multiworld, player, "long_starting_mission_count")
+        if starting_mission_count > mission_count:
+            starting_mission_count = mission_count
         start_inventory_items = missions[:starting_mission_count]
         for itemName in start_inventory_items: #precollect items, then delete from item pool.
             start_inventory = next(item for item in item_pool if item.name == itemName)
@@ -144,7 +146,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         mission_completions_required = get_option_value(multiworld, player, "long_mission_completions_to_win")
         if mission_completions_required > mission_count:
             mission_completions_required = mission_count
-        victory_locations = ['Complete 4 missions', 'Complete 5 missions', 'Complete 6 missions', 'Complete 7 missions', 'Complete 8 missions', 'Complete 9 missions', 'Complete 10 missions', 'Complete 11 missions', 'Complete 12 missions', 'Complete 13 missions', 'Complete 14 missions', 'Complete 15 missions', 'Complete 16 missions', 'Complete 17 missions', 'Complete 18 missions', 'Complete 19 missions', 'Complete 20 missions', 'Complete 21 missions', 'Complete 22 missions', 'Complete 23 missions', 'Complete 24 missions', 'Complete 25 missions', 'Complete 26 missions', 'Complete 27 missions', 'Complete 28 missions', 'Complete 29 missions', 'Complete 30 missions', 'Complete 31 missions', 'Complete 32 missions']
+        victory_locations = ['Complete 4 missions', 'Complete 5 missions', 'Complete 6 missions', 'Complete 7 missions', 'Complete 8 missions', 'Complete 9 missions', 'Complete 10 missions', 'Complete 11 missions', 'Complete 12 missions', 'Complete 13 missions', 'Complete 14 missions', 'Complete 15 missions', 'Complete 16 missions', 'Complete 17 missions', 'Complete 18 missions', 'Complete 19 missions', 'Complete 20 missions', 'Complete 21 missions', 'Complete 22 missions', 'Complete 23 missions', 'Complete 24 missions', 'Complete 25 missions', 'Complete 26 missions', 'Complete 27 missions', 'Complete 28 missions', 'Complete 29 missions', 'Complete 30 missions', 'Complete 31 missions', 'Complete 32 missions', 'Complete 33 missions', 'Complete 34 missions', 'Complete 35 missions', 'Complete 36 missions']
         victory_locations.remove(f'Complete {mission_completions_required} missions')
         #print(victory_locations)
         locationNamesToRemove += victory_locations
@@ -167,19 +169,19 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             
         #include (elite) deep dives, weekly assignments and/or season challenges:
         deep_dive_count = get_option_value(multiworld, player, "long_deep_dive_count")
-        itemNamesToRemove += ["Deep Dive"] * (4 - deep_dive_count)
-        while deep_dive_count < 4:
+        itemNamesToRemove += ["Deep Dive"] * (6 - deep_dive_count)
+        while deep_dive_count < 6:
             deep_dive_count += 1
             regions_to_remove += [f"DD{deep_dive_count}"]
         elite_deep_dive_count = get_option_value(multiworld, player, "long_elite_deep_dive_count")
-        itemNamesToRemove += ["Elite Deep Dive"] * (4 - elite_deep_dive_count)
-        while elite_deep_dive_count < 4:
+        itemNamesToRemove += ["Elite Deep Dive"] * (6 - elite_deep_dive_count)
+        while elite_deep_dive_count < 6:
             elite_deep_dive_count += 1
             regions_to_remove += [f"EDD{elite_deep_dive_count}"]
         weekly_assignment_count = get_option_value(multiworld, player, "long_weekly_assignment_count")
-        itemNamesToRemove += ["Weekly Priority Assignment"] * (4 - weekly_assignment_count)
-        itemNamesToRemove += ["Weekly Core Hunt"] * (4 - weekly_assignment_count)
-        while weekly_assignment_count < 4:
+        itemNamesToRemove += ["Weekly Priority Assignment"] * (6 - weekly_assignment_count)
+        itemNamesToRemove += ["Weekly Core Hunt"] * (6 - weekly_assignment_count)
+        while weekly_assignment_count < 6:
             weekly_assignment_count += 1
             regions_to_remove += [f"WPA{weekly_assignment_count}"]
             regions_to_remove += [f"WCH{weekly_assignment_count}"]

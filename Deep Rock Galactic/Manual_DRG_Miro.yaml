@@ -119,11 +119,11 @@ Manual_DRG_Miro:
     true: 0
 
   long_mission_count:
-    # Choose the number of missions in the pool. Complete pool: 8 mission types * 4 classes = 32.
+    # Choose the number of missions in the pool. Complete pool: 9 mission types * 4 classes = 36.
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 4
-    # Maximum value is 32
+    # Maximum value is 36
     16: 50
     random: 0
     random-low: 0
@@ -133,7 +133,7 @@ Manual_DRG_Miro:
     # Choose the number of starting missions.
     #
     # You can define additional values between the minimum and maximum values.
-    # Minimum value is 0
+    # Minimum value is 1
     # Maximum value is 16
     4: 50
     random: 0
@@ -145,24 +145,24 @@ Manual_DRG_Miro:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 4
-    # Maximum value is 32
+    # Maximum value is 36
     16: 50
     random: 0
     random-low: 0
     random-high: 0
 
   long_secondary_objectives:
-    # Adds locations for 8 secondary objectives.
+    # Adds locations for 10 secondary objectives.
     false: 0
     true: 50
 
   long_warnings:
-    # Adds locations for 13 warning mutators.
+    # Adds locations for 15 warning mutators.
     false: 50
     true: 0
 
   long_anomalies:
-    # Adds locations for 8 anomaly mutators.
+    # Adds locations for 10 anomaly mutators.
     false: 50
     true: 0
 
@@ -172,7 +172,7 @@ Manual_DRG_Miro:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 4
+    # Maximum value is 6
     1: 50
     random: 0
     random-low: 0
@@ -184,7 +184,7 @@ Manual_DRG_Miro:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 4
+    # Maximum value is 6
     0: 50
     random: 0
     random-low: 0
@@ -196,7 +196,7 @@ Manual_DRG_Miro:
     #
     # You can define additional values between the minimum and maximum values.
     # Minimum value is 0
-    # Maximum value is 4
+    # Maximum value is 6
     0: 50
     random: 0
     random-low: 0
@@ -225,3 +225,8 @@ Manual_DRG_Miro:
     random: 0
     random-low: 0
     random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    false: 50
+    true: 0

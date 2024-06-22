@@ -7,7 +7,8 @@
 	{"count":1, "name": "Escort Duty", "category": ["short", "(s) Missions"], "progression": true},
 	{"count":1, "name": "Elimination", "category": ["short", "(s) Missions"], "progression": true},
 	{"count":1, "name": "Industrial Sabotage", "category": ["short", "(s) Missions"], "progression": true},
-	
+	{"count":1, "name": "Deep Scan", "category": ["short", "(s) Missions"], "progression": true},
+
 	{"count":1, "name": "Driller", "category": ["short", "(s) Classes"], "useful": true},
 	{"count":1, "name": "Engineer", "category": ["short", "(s) Classes"], "useful": true},
 	{"count":1, "name": "Gunner", "category": ["short", "(s) Classes"], "useful": true},
@@ -80,6 +81,10 @@
 	{"count":1, "name": "Industrial Sabotage with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
 	{"count":1, "name": "Industrial Sabotage with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
 	{"count":1, "name": "Industrial Sabotage with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Deep Scan with Driller", "category": ["long", "(L) Driller assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Deep Scan with Engineer", "category": ["long", "(L) Engineer assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Deep Scan with Gunner", "category": ["long", "(L) Gunner assignments", "ClassAssignments"], "progression": true},
+	{"count":1, "name": "Deep Scan with Scout", "category": ["long", "(L) Scout assignments", "ClassAssignments"], "progression": true},
 
 	{"count":1, "name": "Alien Fossil", "category": ["long", "(L) Secondary objectives"], "progression": true},
 	{"count":1, "name": "Apoca Bloom", "category": ["long", "(L) Secondary objectives"], "progression": true},
@@ -89,6 +94,8 @@
 	{"count":1, "name": "Fester Flea", "category": ["long", "(L) Secondary objectives"], "progression": true},
 	{"count":1, "name": "Gunk Seed", "category": ["long", "(L) Secondary objectives"], "progression": true},
 	{"count":1, "name": "Hollomite", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Bha Barnacle", "category": ["long", "(L) Secondary objectives"], "progression": true},
+	{"count":1, "name": "Swarmer Egg", "category": ["long", "(L) Secondary objectives"], "progression": true},
 
 	{"count":1, "name": "Cave Leech Cluster", "category": ["long", "(L) Warning mutators"], "progression": true},
 	{"count":1, "name": "Elite Threat", "category": ["long", "(L) Warning mutators"], "progression": true},
@@ -103,6 +110,8 @@
 	{"count":1, "name": "Rival Presence", "category": ["long", "(L) Warning mutators"], "progression": true},
 	{"count":1, "name": "Shield Disruption", "category": ["long", "(L) Warning mutators"], "progression": true},
 	{"count":1, "name": "Swarmageddon", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Duck And Cover", "category": ["long", "(L) Warning mutators"], "progression": true},
+	{"count":1, "name": "Ebonite Outbreak", "category": ["long", "(L) Warning mutators"], "progression": true},
 
 	{"count":1, "name": "Critical Weakness", "category": ["long", "(L) Anomaly mutators"], "progression": true},
 	{"count":1, "name": "Double XP", "category": ["long", "(L) Anomaly mutators"], "progression": true},
@@ -112,11 +121,13 @@
 	{"count":1, "name": "Mineral Mania", "category": ["long", "(L) Anomaly mutators"], "progression": true},
 	{"count":1, "name": "Rich Atmosphere", "category": ["long", "(L) Anomaly mutators"], "progression": true},
 	{"count":1, "name": "Volatile Guts", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Blood Sugar", "category": ["long", "(L) Anomaly mutators"], "progression": true},
+	{"count":1, "name": "Secret Secondary", "category": ["long", "(L) Anomaly mutators"], "progression": true},
 
-	{"count":4, "name": "Deep Dive", "category": ["long", "(L) Deep Dives", "DeepDive"], "progression": true},
-	{"count":4, "name": "Elite Deep Dive", "category": ["long", "(L) Deep Dives", "EliteDeepDive"], "progression": true},
-	{"count":4, "name": "Weekly Priority Assignment", "category": ["long", "(L) Weekly assignments"], "progression": true},
-	{"count":4, "name": "Weekly Core Hunt", "category": ["long", "(L) Weekly assignments"], "progression": true},
+	{"count":6, "name": "Deep Dive", "category": ["long", "(L) Deep Dives", "DeepDive"], "progression": true},
+	{"count":6, "name": "Elite Deep Dive", "category": ["long", "(L) Deep Dives", "EliteDeepDive"], "progression": true},
+	{"count":6, "name": "Weekly Priority Assignment", "category": ["long", "(L) Weekly assignments"], "progression": true},
+	{"count":6, "name": "Weekly Core Hunt", "category": ["long", "(L) Weekly assignments"], "progression": true},
 	{"count":30, "name": "Season challenge", "category": ["long", "(L) Season challenges"], "progression": true},
 
 	{"count":1, "name": "Assignments Complete!", "category": ["Victory"], "progression": true
